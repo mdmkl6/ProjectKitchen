@@ -1,0 +1,4230 @@
+[
+ {
+  "model": "products.product",
+  "pk": 0,
+  "fields": {
+   "name": "small marshmallows"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+   "name": "pineapple"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+   "name": "sliced"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+   "name": "fresh spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+   "name": "mushroom stems and pieces"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+   "name": "Ribs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+   "name": "soy sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+   "name": "broccoli"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+   "name": "shredded cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+   "name": "parsley"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+   "name": "small zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+   "name": "stewed tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+   "name": "diced celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+   "name": "gorgonzola cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+   "name": "Dream Whip"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+   "name": "walnuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+   "name": "sliced onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+   "name": "pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+   "name": "vegetable oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+   "name": "salad oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+   "name": "fresh pork butt or shoulder of pork"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 24,
+  "fields": {
+   "name": "butter or margarine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+   "name": "apples"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+   "name": "left-over beef"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 27,
+  "fields": {
+   "name": "summer squash"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+   "name": "shredded lettuce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+   "name": "bean sprouts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 30,
+  "fields": {
+   "name": "frozen broccoli"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 31,
+  "fields": {
+   "name": "10 inch pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 32,
+  "fields": {
+   "name": "potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 33,
+  "fields": {
+   "name": "linguini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 34,
+  "fields": {
+   "name": "frozen hashbrowns"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 35,
+  "fields": {
+   "name": "Ingredient02"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 36,
+  "fields": {
+   "name": "broccoli"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 37,
+  "fields": {
+   "name": "skinless b1less chicken breasts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 38,
+  "fields": {
+   "name": "potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 39,
+  "fields": {
+   "name": "scallops"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 40,
+  "fields": {
+   "name": "package of dry spaghetti sauce mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 41,
+  "fields": {
+   "name": "sherry"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 42,
+  "fields": {
+   "name": "parsley flakes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 43,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 44,
+  "fields": {
+   "name": "swiss cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 45,
+  "fields": {
+   "name": "bay leaf"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 46,
+  "fields": {
+   "name": "soda water"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 47,
+  "fields": {
+   "name": "kidney beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 48,
+  "fields": {
+   "name": "hot water"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 49,
+  "fields": {
+   "name": "fresh orange juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 50,
+  "fields": {
+   "name": "green onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 51,
+  "fields": {
+   "name": "large apples"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 52,
+  "fields": {
+   "name": "french fried onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 53,
+  "fields": {
+   "name": "vanilla wafers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 54,
+  "fields": {
+   "name": "lemon juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 55,
+  "fields": {
+   "name": "vanilla"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 56,
+  "fields": {
+   "name": "bread crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 57,
+  "fields": {
+   "name": "carrot pieces"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 58,
+  "fields": {
+   "name": "garbanzo beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 59,
+  "fields": {
+   "name": "bread crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 60,
+  "fields": {
+   "name": "plain low fat yogurt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 61,
+  "fields": {
+   "name": "ground chuck"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 62,
+  "fields": {
+   "name": "shitake mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 63,
+  "fields": {
+   "name": "cornmeal"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 64,
+  "fields": {
+   "name": "freshly ground pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 65,
+  "fields": {
+   "name": "Peach or vanilla ice cream"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 66,
+  "fields": {
+   "name": "ginger"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 67,
+  "fields": {
+   "name": "vanilla wafer crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 68,
+  "fields": {
+   "name": "chicken Ramen"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 69,
+  "fields": {
+   "name": "steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 70,
+  "fields": {
+   "name": "Dream Whip or whipped cream"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 71,
+  "fields": {
+   "name": "cream of mushroom soup or 2 cans cream of mushroom and 1 can chicken broth"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 72,
+  "fields": {
+   "name": "water chestnuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 73,
+  "fields": {
+   "name": "green peppers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 74,
+  "fields": {
+   "name": "carrots"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 75,
+  "fields": {
+   "name": "chickens"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 76,
+  "fields": {
+   "name": "peeled tomato"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 77,
+  "fields": {
+   "name": "egg yolks"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 78,
+  "fields": {
+   "name": "sliced almonds"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 79,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 80,
+  "fields": {
+   "name": "chopped green chiles"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 81,
+  "fields": {
+   "name": "chicken coasting mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 82,
+  "fields": {
+   "name": "water chestnuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 83,
+  "fields": {
+   "name": "nutmeg"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 84,
+  "fields": {
+   "name": "fresh mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 85,
+  "fields": {
+   "name": "light corn syrup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 86,
+  "fields": {
+   "name": "crab or shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 87,
+  "fields": {
+   "name": "Best Foods Mayonnaise"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 88,
+  "fields": {
+   "name": "zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 89,
+  "fields": {
+   "name": "cherry jello"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 90,
+  "fields": {
+   "name": "salsa"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 91,
+  "fields": {
+   "name": "onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 92,
+  "fields": {
+   "name": "celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 93,
+  "fields": {
+   "name": "mashed potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 94,
+  "fields": {
+   "name": "radishes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 95,
+  "fields": {
+   "name": "chopped clams"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 96,
+  "fields": {
+   "name": "mozzarella cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 97,
+  "fields": {
+   "name": "pineapple chunks"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 98,
+  "fields": {
+   "name": "worchestershire sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 99,
+  "fields": {
+   "name": "small onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 100,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 101,
+  "fields": {
+   "name": "sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 102,
+  "fields": {
+   "name": "chicken breast halves"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 103,
+  "fields": {
+   "name": "white bread"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 104,
+  "fields": {
+   "name": "salt and pepper to taste"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 105,
+  "fields": {
+   "name": "garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 106,
+  "fields": {
+   "name": "frozen spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 107,
+  "fields": {
+   "name": "rosemary"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 108,
+  "fields": {
+   "name": "mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 109,
+  "fields": {
+   "name": "bea10 eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 110,
+  "fields": {
+   "name": "red onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 111,
+  "fields": {
+   "name": "chicken bouillion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 112,
+  "fields": {
+   "name": "very fine bread crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 113,
+  "fields": {
+   "name": "medium noodles"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 114,
+  "fields": {
+   "name": "green onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 115,
+  "fields": {
+   "name": "red food coloring"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 116,
+  "fields": {
+   "name": "chopped onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 117,
+  "fields": {
+   "name": "minced garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 118,
+  "fields": {
+   "name": "tomato sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 119,
+  "fields": {
+   "name": "broiler chicken"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 120,
+  "fields": {
+   "name": "shallots"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 121,
+  "fields": {
+   "name": "parsley"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 122,
+  "fields": {
+   "name": "baking soda"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 123,
+  "fields": {
+   "name": "graham cracker crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 124,
+  "fields": {
+   "name": "rice vinegar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 125,
+  "fields": {
+   "name": "chopped spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 126,
+  "fields": {
+   "name": "frozen hashbrown potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 127,
+  "fields": {
+   "name": "egg"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 128,
+  "fields": {
+   "name": "mushroom soup or leftover pork gravy"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 129,
+  "fields": {
+   "name": "cold water"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 130,
+  "fields": {
+   "name": "egg yolk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 131,
+  "fields": {
+   "name": "Velveeta"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 132,
+  "fields": {
+   "name": "evaporated milk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 133,
+  "fields": {
+   "name": "dried tarragon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 134,
+  "fields": {
+   "name": "bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 135,
+  "fields": {
+   "name": "mayonaise"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 136,
+  "fields": {
+   "name": "stalks of celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 137,
+  "fields": {
+   "name": "rabbits"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 138,
+  "fields": {
+   "name": "tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 139,
+  "fields": {
+   "name": "red pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 140,
+  "fields": {
+   "name": "sole filets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 141,
+  "fields": {
+   "name": "dry bread crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 142,
+  "fields": {
+   "name": "fruit jello"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 143,
+  "fields": {
+   "name": "flank steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 144,
+  "fields": {
+   "name": "pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 145,
+  "fields": {
+   "name": "bea10 egg white"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 146,
+  "fields": {
+   "name": "red onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 147,
+  "fields": {
+   "name": "chopped green onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 148,
+  "fields": {
+   "name": "button mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 149,
+  "fields": {
+   "name": "chives or scallions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 150,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 151,
+  "fields": {
+   "name": "green onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 152,
+  "fields": {
+   "name": "Crisco"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 153,
+  "fields": {
+   "name": "light brown sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 154,
+  "fields": {
+   "name": "buttermilk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 155,
+  "fields": {
+   "name": "egg"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 156,
+  "fields": {
+   "name": "reduced calorie mayonnaise"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 157,
+  "fields": {
+   "name": "crunchy peanut butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 158,
+  "fields": {
+   "name": "diced ham"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 159,
+  "fields": {
+   "name": "pears"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 160,
+  "fields": {
+   "name": "minute rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 161,
+  "fields": {
+   "name": "zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 162,
+  "fields": {
+   "name": "sparagus"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 163,
+  "fields": {
+   "name": "poultry seasoning"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 164,
+  "fields": {
+   "name": "celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 165,
+  "fields": {
+   "name": "cracker crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 166,
+  "fields": {
+   "name": "crushed walnuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 167,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 168,
+  "fields": {
+   "name": "dry sherry"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 169,
+  "fields": {
+   "name": "oranges"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 170,
+  "fields": {
+   "name": "blackberries"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 171,
+  "fields": {
+   "name": "mozzarella or provol1"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 172,
+  "fields": {
+   "name": "peanut or vegetable oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 173,
+  "fields": {
+   "name": "garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 174,
+  "fields": {
+   "name": "Louisiana-style hot sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 175,
+  "fields": {
+   "name": "marinated artichoke hearts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 176,
+  "fields": {
+   "name": "rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 177,
+  "fields": {
+   "name": "anise"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 178,
+  "fields": {
+   "name": "bourbon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 179,
+  "fields": {
+   "name": "garlic powder"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 180,
+  "fields": {
+   "name": "grated cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 181,
+  "fields": {
+   "name": "dry mustard"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 182,
+  "fields": {
+   "name": "cream of mushroom soup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 183,
+  "fields": {
+   "name": "chicken stock"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 184,
+  "fields": {
+   "name": "fresh beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 185,
+  "fields": {
+   "name": "Chef Boyardee package pizza mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 186,
+  "fields": {
+   "name": "barbeque sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 187,
+  "fields": {
+   "name": "salt and pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 188,
+  "fields": {
+   "name": "flour"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 189,
+  "fields": {
+   "name": "white sauterne wine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 190,
+  "fields": {
+   "name": "cocoa"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 191,
+  "fields": {
+   "name": "half and half"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 192,
+  "fields": {
+   "name": "h1y"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 193,
+  "fields": {
+   "name": "bread"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 194,
+  "fields": {
+   "name": "fine cracker crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 195,
+  "fields": {
+   "name": "fresh ginger"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 196,
+  "fields": {
+   "name": "chicken broth"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 197,
+  "fields": {
+   "name": "fresh parsley"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 198,
+  "fields": {
+   "name": "salad greens"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 199,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 200,
+  "fields": {
+   "name": "curry powder"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 201,
+  "fields": {
+   "name": "soda"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 202,
+  "fields": {
+   "name": "ground cumin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 203,
+  "fields": {
+   "name": "potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 204,
+  "fields": {
+   "name": "shortening"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 205,
+  "fields": {
+   "name": "eggplant"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 206,
+  "fields": {
+   "name": "frozen orange juice concentrate"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 207,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 208,
+  "fields": {
+   "name": "butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 209,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 210,
+  "fields": {
+   "name": "peanut butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 211,
+  "fields": {
+   "name": "worchester"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 212,
+  "fields": {
+   "name": "unsalted butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 213,
+  "fields": {
+   "name": "jack cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 214,
+  "fields": {
+   "name": "asparagus"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 215,
+  "fields": {
+   "name": "10 inch  baked pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 216,
+  "fields": {
+   "name": "pork shoulder steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 217,
+  "fields": {
+   "name": "bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 218,
+  "fields": {
+   "name": "berries"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 219,
+  "fields": {
+   "name": "egg yolks"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 220,
+  "fields": {
+   "name": "pineapple juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 221,
+  "fields": {
+   "name": "bamboo shoots"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 222,
+  "fields": {
+   "name": "basil leaves"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 223,
+  "fields": {
+   "name": "chow mein noodles"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 224,
+  "fields": {
+   "name": "pineapple tidbits"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 225,
+  "fields": {
+   "name": "mayonnaise"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 226,
+  "fields": {
+   "name": "semisweet chocolate chips"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 227,
+  "fields": {
+   "name": "chicken coating mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 228,
+  "fields": {
+   "name": "butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 229,
+  "fields": {
+   "name": "Italian salad dressing"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 230,
+  "fields": {
+   "name": "Ingredient05"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 231,
+  "fields": {
+   "name": "fresh peaches"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 232,
+  "fields": {
+   "name": "accent seasoning mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 233,
+  "fields": {
+   "name": "green onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 234,
+  "fields": {
+   "name": "sweet potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 235,
+  "fields": {
+   "name": "fruit juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 236,
+  "fields": {
+   "name": "elbow macaroni"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 237,
+  "fields": {
+   "name": "brown sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 238,
+  "fields": {
+   "name": "baked pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 239,
+  "fields": {
+   "name": "onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 240,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 241,
+  "fields": {
+   "name": "green onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 242,
+  "fields": {
+   "name": "Ingredient06"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 243,
+  "fields": {
+   "name": "egg "
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 244,
+  "fields": {
+   "name": "spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 245,
+  "fields": {
+   "name": "celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 246,
+  "fields": {
+   "name": "artichoke hearts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 247,
+  "fields": {
+   "name": "whipped cream or cool whip"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 248,
+  "fields": {
+   "name": "green beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 249,
+  "fields": {
+   "name": "cabbage"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 250,
+  "fields": {
+   "name": "low fat cottage cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 251,
+  "fields": {
+   "name": "sliced mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 252,
+  "fields": {
+   "name": "oregano"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 253,
+  "fields": {
+   "name": "parmasen cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 254,
+  "fields": {
+   "name": "white onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 255,
+  "fields": {
+   "name": "garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 256,
+  "fields": {
+   "name": "ground beef"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 257,
+  "fields": {
+   "name": "tortilla chips"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 258,
+  "fields": {
+   "name": "horseradish"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 259,
+  "fields": {
+   "name": "grated lemon rind"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 260,
+  "fields": {
+   "name": "chopped pitted prunes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 261,
+  "fields": {
+   "name": "boullion cube"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 262,
+  "fields": {
+   "name": "cauliflower"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 263,
+  "fields": {
+   "name": "carrot"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 264,
+  "fields": {
+   "name": "sauterne wine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 265,
+  "fields": {
+   "name": "white vinegar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 266,
+  "fields": {
+   "name": "shallots"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 267,
+  "fields": {
+   "name": "boiling orange juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 268,
+  "fields": {
+   "name": "crab meat"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 269,
+  "fields": {
+   "name": "b1d and skinned chicken breasts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 270,
+  "fields": {
+   "name": "veal steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 271,
+  "fields": {
+   "name": "soda"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 272,
+  "fields": {
+   "name": "grated lemon juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 273,
+  "fields": {
+   "name": "crumbled bacon bits"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 274,
+  "fields": {
+   "name": "pepper sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 275,
+  "fields": {
+   "name": "phyllo pastry"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 276,
+  "fields": {
+   "name": "parmesan cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 277,
+  "fields": {
+   "name": "nuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 278,
+  "fields": {
+   "name": "light brown sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 279,
+  "fields": {
+   "name": "fresh broccoli"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 280,
+  "fields": {
+   "name": "mint apple jelly"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 281,
+  "fields": {
+   "name": "parsley"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 282,
+  "fields": {
+   "name": "sunflower seed"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 283,
+  "fields": {
+   "name": "garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 284,
+  "fields": {
+   "name": "fresh peaches"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 285,
+  "fields": {
+   "name": "zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 286,
+  "fields": {
+   "name": "leaf oregano"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 287,
+  "fields": {
+   "name": "water"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 288,
+  "fields": {
+   "name": "frozen light whipped topping"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 289,
+  "fields": {
+   "name": "cooked pasta"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 290,
+  "fields": {
+   "name": "pea pods"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 291,
+  "fields": {
+   "name": "red cabbage"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 292,
+  "fields": {
+   "name": "fresh mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 293,
+  "fields": {
+   "name": "cornflakes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 294,
+  "fields": {
+   "name": "parsley"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 295,
+  "fields": {
+   "name": "margarine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 296,
+  "fields": {
+   "name": "mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 297,
+  "fields": {
+   "name": "fresh basil or parsley"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 298,
+  "fields": {
+   "name": "baked pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 299,
+  "fields": {
+   "name": "sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 300,
+  "fields": {
+   "name": "seedless grapes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 301,
+  "fields": {
+   "name": "catalina french dressing"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 302,
+  "fields": {
+   "name": "chicken wings or drumettes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 303,
+  "fields": {
+   "name": "bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 304,
+  "fields": {
+   "name": "bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 305,
+  "fields": {
+   "name": "pitted dates"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 306,
+  "fields": {
+   "name": "onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 307,
+  "fields": {
+   "name": "red or green pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 308,
+  "fields": {
+   "name": "teaspoon salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 309,
+  "fields": {
+   "name": "finely chopped walnuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 310,
+  "fields": {
+   "name": "leaf spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 311,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 312,
+  "fields": {
+   "name": "Ingredient01"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 313,
+  "fields": {
+   "name": "linguini or spaghetti"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 314,
+  "fields": {
+   "name": "spaghetti sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 315,
+  "fields": {
+   "name": "shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 316,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 317,
+  "fields": {
+   "name": "raw shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 318,
+  "fields": {
+   "name": "Cheeze Whiz"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 319,
+  "fields": {
+   "name": "precooked rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 320,
+  "fields": {
+   "name": "paprika"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 321,
+  "fields": {
+   "name": "melted butter or margarine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 322,
+  "fields": {
+   "name": "pitted prunes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 323,
+  "fields": {
+   "name": "bacon bits"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 324,
+  "fields": {
+   "name": "kidney beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 325,
+  "fields": {
+   "name": "Bisquick baking mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 326,
+  "fields": {
+   "name": "red potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 327,
+  "fields": {
+   "name": "whole pecans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 328,
+  "fields": {
+   "name": "round steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 329,
+  "fields": {
+   "name": "slivered ham"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 330,
+  "fields": {
+   "name": "margarine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 331,
+  "fields": {
+   "name": "Lipton onion soup mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 332,
+  "fields": {
+   "name": "angel food cake mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 333,
+  "fields": {
+   "name": "cornstarch"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 334,
+  "fields": {
+   "name": "basil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 335,
+  "fields": {
+   "name": "garlic salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 336,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 337,
+  "fields": {
+   "name": "unparred apple"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 338,
+  "fields": {
+   "name": "peppers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 339,
+  "fields": {
+   "name": "green pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 340,
+  "fields": {
+   "name": "baked pastry shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 341,
+  "fields": {
+   "name": "chicken parts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 342,
+  "fields": {
+   "name": "fish fillets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 343,
+  "fields": {
+   "name": "light or dark corn syrup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 344,
+  "fields": {
+   "name": "raisins"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 345,
+  "fields": {
+   "name": "parmesan cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 346,
+  "fields": {
+   "name": "minced onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 347,
+  "fields": {
+   "name": "round steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 348,
+  "fields": {
+   "name": "Ingredient04"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 349,
+  "fields": {
+   "name": "instant vanilla pudding"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 350,
+  "fields": {
+   "name": "lemon cake mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 351,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 352,
+  "fields": {
+   "name": "sausage"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 353,
+  "fields": {
+   "name": "sunflower seeds"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 354,
+  "fields": {
+   "name": "molasses"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 355,
+  "fields": {
+   "name": "chicken breast"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 356,
+  "fields": {
+   "name": "bouillon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 357,
+  "fields": {
+   "name": "chicken breast"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 358,
+  "fields": {
+   "name": "ginger root"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 359,
+  "fields": {
+   "name": "fine dried bread crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 360,
+  "fields": {
+   "name": "bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 361,
+  "fields": {
+   "name": "fresh green beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 362,
+  "fields": {
+   "name": "caraway seed"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 363,
+  "fields": {
+   "name": "phyllo pastry sheets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 364,
+  "fields": {
+   "name": "corn tortillas"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 365,
+  "fields": {
+   "name": "brown gravy"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 366,
+  "fields": {
+   "name": "sour milk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 367,
+  "fields": {
+   "name": "beef round steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 368,
+  "fields": {
+   "name": "granulated sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 369,
+  "fields": {
+   "name": "cream of chcken soup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 370,
+  "fields": {
+   "name": "potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 371,
+  "fields": {
+   "name": "mushroom soup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 372,
+  "fields": {
+   "name": "grated orange peel"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 373,
+  "fields": {
+   "name": "bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 374,
+  "fields": {
+   "name": "fresh or frozen broccoli"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 375,
+  "fields": {
+   "name": "mexican blend cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 376,
+  "fields": {
+   "name": "broccoli florets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 377,
+  "fields": {
+   "name": "lasagna noodles"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 378,
+  "fields": {
+   "name": "alfalfa sprouts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 379,
+  "fields": {
+   "name": "diced apples"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 380,
+  "fields": {
+   "name": "tuna in oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 381,
+  "fields": {
+   "name": "flake coconut"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 382,
+  "fields": {
+   "name": "pineapple chunks in juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 383,
+  "fields": {
+   "name": "chicken pieces"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 384,
+  "fields": {
+   "name": "pork and beans in tomato sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 385,
+  "fields": {
+   "name": "chicken livers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 386,
+  "fields": {
+   "name": "chicken"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 387,
+  "fields": {
+   "name": "chicken"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 388,
+  "fields": {
+   "name": "sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 389,
+  "fields": {
+   "name": "wheat germ"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 390,
+  "fields": {
+   "name": "white wine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 391,
+  "fields": {
+   "name": "seas1d salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 392,
+  "fields": {
+   "name": "cold cooked rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 393,
+  "fields": {
+   "name": "egg yolk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 394,
+  "fields": {
+   "name": "spanish seasoning"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 395,
+  "fields": {
+   "name": "dried onions or 1/2 cup fresh"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 396,
+  "fields": {
+   "name": "cashew nuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 397,
+  "fields": {
+   "name": "mandarin oranges"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 398,
+  "fields": {
+   "name": "cream cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 399,
+  "fields": {
+   "name": "marshmallows"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 400,
+  "fields": {
+   "name": "sifted flour"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 401,
+  "fields": {
+   "name": "beef"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 402,
+  "fields": {
+   "name": "milk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 403,
+  "fields": {
+   "name": "celery salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 404,
+  "fields": {
+   "name": "butter salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 405,
+  "fields": {
+   "name": "hamburger"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 406,
+  "fields": {
+   "name": "cooked pork"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 407,
+  "fields": {
+   "name": "boiling water"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 408,
+  "fields": {
+   "name": "crushed pineapple"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 409,
+  "fields": {
+   "name": "celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 410,
+  "fields": {
+   "name": "cold butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 411,
+  "fields": {
+   "name": "green onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 412,
+  "fields": {
+   "name": "slices bacon for each"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 413,
+  "fields": {
+   "name": "green pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 414,
+  "fields": {
+   "name": "cinnamon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 415,
+  "fields": {
+   "name": "chopped green chiles"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 416,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 417,
+  "fields": {
+   "name": "tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 418,
+  "fields": {
+   "name": "broccoli"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 419,
+  "fields": {
+   "name": "melted butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 420,
+  "fields": {
+   "name": "cream of tartar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 421,
+  "fields": {
+   "name": "monterey jack cheesed"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 422,
+  "fields": {
+   "name": "cabbage"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 423,
+  "fields": {
+   "name": "pork 10derloin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 424,
+  "fields": {
+   "name": "Ingredient03"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 425,
+  "fields": {
+   "name": "mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 426,
+  "fields": {
+   "name": "unsalted butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 427,
+  "fields": {
+   "name": "any frozen mixed vegetable"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 428,
+  "fields": {
+   "name": "fresh ginger"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 429,
+  "fields": {
+   "name": "red onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 430,
+  "fields": {
+   "name": "medium-size raw shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 431,
+  "fields": {
+   "name": "cooked slivered ham"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 432,
+  "fields": {
+   "name": "crushed stuffing mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 433,
+  "fields": {
+   "name": "avocado"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 434,
+  "fields": {
+   "name": "baking powder"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 435,
+  "fields": {
+   "name": "cumin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 436,
+  "fields": {
+   "name": "raisins"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 437,
+  "fields": {
+   "name": "chicken thighs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 438,
+  "fields": {
+   "name": "melted Mexican blend cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 439,
+  "fields": {
+   "name": "wine cooler"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 440,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 441,
+  "fields": {
+   "name": "stewed tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 442,
+  "fields": {
+   "name": "tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 443,
+  "fields": {
+   "name": "jar pimentos"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 444,
+  "fields": {
+   "name": "turkey breast 10derloins"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 445,
+  "fields": {
+   "name": "cottage cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 446,
+  "fields": {
+   "name": "carrots"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 447,
+  "fields": {
+   "name": "broccoli florets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 448,
+  "fields": {
+   "name": "skinless b1less chicken breasts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 449,
+  "fields": {
+   "name": "elephant"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 450,
+  "fields": {
+   "name": "walnuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 451,
+  "fields": {
+   "name": "spoonful of orange marmalade"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 452,
+  "fields": {
+   "name": "vinegar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 453,
+  "fields": {
+   "name": "pineapple chunks"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 454,
+  "fields": {
+   "name": "frozen chopped spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 455,
+  "fields": {
+   "name": "chicken breast"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 456,
+  "fields": {
+   "name": "flour"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 457,
+  "fields": {
+   "name": "graham crackers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 458,
+  "fields": {
+   "name": "spinach leaves"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 459,
+  "fields": {
+   "name": "cornflakes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 460,
+  "fields": {
+   "name": "orange peel"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 461,
+  "fields": {
+   "name": "miracle whip"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 462,
+  "fields": {
+   "name": "green beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 463,
+  "fields": {
+   "name": "cantaloupe"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 464,
+  "fields": {
+   "name": "ketchup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 465,
+  "fields": {
+   "name": "clove garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 466,
+  "fields": {
+   "name": "frozen lima beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 467,
+  "fields": {
+   "name": "margerine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 468,
+  "fields": {
+   "name": "nutmeg"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 469,
+  "fields": {
+   "name": "oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 470,
+  "fields": {
+   "name": "nectarines"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 471,
+  "fields": {
+   "name": "spinach greens"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 472,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 473,
+  "fields": {
+   "name": "fresh ripe tomato"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 474,
+  "fields": {
+   "name": "cloves of garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 475,
+  "fields": {
+   "name": "grated parmesan cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 476,
+  "fields": {
+   "name": "garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 477,
+  "fields": {
+   "name": "almond flavoring"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 478,
+  "fields": {
+   "name": "egg"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 479,
+  "fields": {
+   "name": "yellow cornmeal"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 480,
+  "fields": {
+   "name": "boned chicken breasts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 481,
+  "fields": {
+   "name": "pineapple juice + water"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 482,
+  "fields": {
+   "name": "boiling onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 483,
+  "fields": {
+   "name": "chicken"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 484,
+  "fields": {
+   "name": "taco seasoning mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 485,
+  "fields": {
+   "name": "feta cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 486,
+  "fields": {
+   "name": "salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 487,
+  "fields": {
+   "name": "ice water or 7-up"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 488,
+  "fields": {
+   "name": "lime"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 489,
+  "fields": {
+   "name": "egg whites"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 490,
+  "fields": {
+   "name": "vanilla ice cream"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 491,
+  "fields": {
+   "name": "sliced mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 492,
+  "fields": {
+   "name": "green onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 493,
+  "fields": {
+   "name": "garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 494,
+  "fields": {
+   "name": "mushroom stems and pieces"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 495,
+  "fields": {
+   "name": "broccoli florets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 496,
+  "fields": {
+   "name": "peaches"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 497,
+  "fields": {
+   "name": "pork 10derloin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 498,
+  "fields": {
+   "name": "salt and  pepper to taste"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 499,
+  "fields": {
+   "name": "frozen peas"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 500,
+  "fields": {
+   "name": "cream of chicken soup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 501,
+  "fields": {
+   "name": "chopped nuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 502,
+  "fields": {
+   "name": "salted cashew pieces."
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 503,
+  "fields": {
+   "name": "Knox Unflavored Gelatin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 504,
+  "fields": {
+   "name": "sour cream"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 505,
+  "fields": {
+   "name": "sherry cooking wine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 506,
+  "fields": {
+   "name": "dried onion or 1/2 cup fresh"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 507,
+  "fields": {
+   "name": "worcestershire sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 508,
+  "fields": {
+   "name": "peach or lemon gelatin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 509,
+  "fields": {
+   "name": "salt"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 510,
+  "fields": {
+   "name": "crushed vanilla wafers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 511,
+  "fields": {
+   "name": "graham cracker crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 512,
+  "fields": {
+   "name": "lite cream cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 513,
+  "fields": {
+   "name": "frozen chopped spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 514,
+  "fields": {
+   "name": "yellow cake mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 515,
+  "fields": {
+   "name": "frozen peas"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 516,
+  "fields": {
+   "name": "chili powder"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 517,
+  "fields": {
+   "name": "b1d chicken breast cut into 1-inch cubes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 518,
+  "fields": {
+   "name": "salad dressing"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 519,
+  "fields": {
+   "name": "whole cranberry sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 520,
+  "fields": {
+   "name": "powdered sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 521,
+  "fields": {
+   "name": "knox gelatin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 522,
+  "fields": {
+   "name": "cheddar cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 523,
+  "fields": {
+   "name": "oregano or italian seasoning"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 524,
+  "fields": {
+   "name": "tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 525,
+  "fields": {
+   "name": "cayenne"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 526,
+  "fields": {
+   "name": "zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 527,
+  "fields": {
+   "name": "white pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 528,
+  "fields": {
+   "name": "Uncle Ben's Converted Rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 529,
+  "fields": {
+   "name": "melted margarine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 530,
+  "fields": {
+   "name": "wheat germ"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 531,
+  "fields": {
+   "name": "chopped artichoke hearts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 532,
+  "fields": {
+   "name": "wax beans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 533,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 534,
+  "fields": {
+   "name": "raisin liquid"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 535,
+  "fields": {
+   "name": "poppy seeds"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 536,
+  "fields": {
+   "name": "tart apples"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 537,
+  "fields": {
+   "name": "red or green pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 538,
+  "fields": {
+   "name": "ricotta cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 539,
+  "fields": {
+   "name": "all-purpose flour"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 540,
+  "fields": {
+   "name": "blue cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 541,
+  "fields": {
+   "name": "fresh spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 542,
+  "fields": {
+   "name": "chicken breasts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 543,
+  "fields": {
+   "name": "diced oregano leaves"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 544,
+  "fields": {
+   "name": "chunk style peanut buter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 545,
+  "fields": {
+   "name": "chicken breasts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 546,
+  "fields": {
+   "name": "oranges"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 547,
+  "fields": {
+   "name": "crisp bacon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 548,
+  "fields": {
+   "name": "crushed pineapple"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 549,
+  "fields": {
+   "name": "lemon instant pudding"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 550,
+  "fields": {
+   "name": " red onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 551,
+  "fields": {
+   "name": "lemon juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 552,
+  "fields": {
+   "name": "whole prunes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 553,
+  "fields": {
+   "name": "onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 554,
+  "fields": {
+   "name": "cubed cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 555,
+  "fields": {
+   "name": "celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 556,
+  "fields": {
+   "name": "grated jack cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 557,
+  "fields": {
+   "name": "potato"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 558,
+  "fields": {
+   "name": "fresh peaches"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 559,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 560,
+  "fields": {
+   "name": "hamburger or sausage"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 561,
+  "fields": {
+   "name": "cucumbers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 562,
+  "fields": {
+   "name": "potato"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 563,
+  "fields": {
+   "name": "crushed pineapple"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 564,
+  "fields": {
+   "name": "b1less chicken"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 565,
+  "fields": {
+   "name": "wesson oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 566,
+  "fields": {
+   "name": "dry white wine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 567,
+  "fields": {
+   "name": "bananas"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 568,
+  "fields": {
+   "name": "oatmeal"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 569,
+  "fields": {
+   "name": "dry red wine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 570,
+  "fields": {
+   "name": "gelatin"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 571,
+  "fields": {
+   "name": "watermelon chunks"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 572,
+  "fields": {
+   "name": "coconut"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 573,
+  "fields": {
+   "name": "stalks of celery"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 574,
+  "fields": {
+   "name": "butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 575,
+  "fields": {
+   "name": "zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 576,
+  "fields": {
+   "name": "cream cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 577,
+  "fields": {
+   "name": "chunk style peanut butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 578,
+  "fields": {
+   "name": "b1less"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 579,
+  "fields": {
+   "name": "hot cooked rice or noodles"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 580,
+  "fields": {
+   "name": "green onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 581,
+  "fields": {
+   "name": "lemon jello"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 582,
+  "fields": {
+   "name": "olive oil"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 583,
+  "fields": {
+   "name": "eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 584,
+  "fields": {
+   "name": "whipped cream"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 585,
+  "fields": {
+   "name": "white sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 586,
+  "fields": {
+   "name": "sweetened condensed milk"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 587,
+  "fields": {
+   "name": " margarine or butter"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 588,
+  "fields": {
+   "name": "butter or margarine"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 589,
+  "fields": {
+   "name": "cold orange juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 590,
+  "fields": {
+   "name": "cabbage"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 591,
+  "fields": {
+   "name": "lemon rind"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 592,
+  "fields": {
+   "name": "chicken bouillon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 593,
+  "fields": {
+   "name": "onion powder"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 594,
+  "fields": {
+   "name": "accent"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 595,
+  "fields": {
+   "name": "croutons"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 596,
+  "fields": {
+   "name": "cloves"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 597,
+  "fields": {
+   "name": "unsifted cake flour"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 598,
+  "fields": {
+   "name": "minute rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 599,
+  "fields": {
+   "name": "sliced onion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 600,
+  "fields": {
+   "name": "sliced olives"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 601,
+  "fields": {
+   "name": "can of shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 602,
+  "fields": {
+   "name": "cream of mushroom soup"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 603,
+  "fields": {
+   "name": "heavy cream"
+  }
+ }
+]
