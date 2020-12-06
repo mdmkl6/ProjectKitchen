@@ -1,9 +1,14 @@
-<!doctype html>
+<!-- templates/base.html -->
+<!DOCTYPE html>
 <html>
-  <title>Something</title>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Project kitchen{% endblock %}</title>
+</head>
 <body>
-  {% block content %}
-    replace me
-  {% endblock %}
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
 </body>
 </html>
