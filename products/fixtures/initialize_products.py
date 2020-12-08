@@ -35,6 +35,3 @@ with open("initial_products.json",'w') as f:
 
 #Teraz żeby zainicjalizować produkty wystarczy wpisać komendę:
 #python manage.py loaddata initial_products.json
-
-
-
