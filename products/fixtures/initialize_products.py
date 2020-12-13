@@ -54,6 +54,7 @@ def clean_product_names(products):
 
 cvs_name = "../../recipes.csv"
 products = product_list_from_csv(cvs_name)
+
 products = clean_product_names(products)
 
 json_data = [{"model": "products.product", "pk": i, "fields": {"name": name}} for (i, name) in enumerate(products)]
