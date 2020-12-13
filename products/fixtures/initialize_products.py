@@ -13,7 +13,7 @@ def product_list_from_csv(csv_name):
   return list(products)
 
 def clean_product_names(products):
-  uneeded_words = ["grated", "sliced", "crushed", "spoonful of", "unsifted", "sifted", "shredded","to taste", "finely", "chopped", "stewed", "diced", "melted", "very", "fine", "cold", "hot cooked", "cold", "large", "mashed", "boiling", "minced", "1/2", "freshly", "fresh", "package of", "chopped", "pieces", "baked", "beaten", "slices", "for each", ".", "half", "any ", "ripe", "peeled", "slivered"]
+  uneeded_words = ["grated", "sliced", "crushed", "spoonful of", "unsifted", "sifted", "shredded","to taste", "finely", "chopped", "stewed", "diced", "melted", "very", "fine", "cold", "hot cooked", "cold", "large", "mashed", "boiling", "minced", "1/2", "freshly", "fresh", "package of", "chopped", "pieces", "baked", "beaten", "slices", "for each", ".", "half", "any ", "ripe", "peeled", "slivered", "crumbled"]
   #usuwanie elementów ingredientXY od 01 do 06
   for i in range(1,10):
     products.remove("Ingredient0" + str(i))
@@ -49,8 +49,7 @@ def clean_product_names(products):
   #usuniecie pustych stringów
   new_list.remove("")
   #Sprawdzenie ilości produktów
-  print(len(new_list))
-  print(new_list)
+  #print(len(new_list))
   return new_list
 
 cvs_name = "../../recipes.csv"
