@@ -8,15 +8,17 @@ def product_list_from_csv(csv_name):
     products = set()
     for row in file:
       #dodawanie do zestawu produktów z kolumn z "ingredients"
-      for i in range(4,20,3):
+      for i in range(4,58,3):
         products.add(row[i])
   return list(products)
 
 def clean_product_names(products):
-  uneeded_words = ["grated", "sliced", "crushed", "spoonful of", "sifted", "to taste", "finely", "chopped", "stewed", "diced", "melted", "very", "fine", "cold", "hot cooked", "cold", "large", "mashed", "boiling", "minced", "1/2", "freshly", "fresh", "package of", "chopped", "pieces", "baked", "beaten", "slices", "for each", ".", "half", "any ", "ripe", "peeled"]
+  uneeded_words = ["grated", "sliced", "crushed", "spoonful of", "unsifted", "sifted", "shredded","to taste", "finely", "chopped", "stewed", "diced", "melted", "very", "fine", "cold", "hot cooked", "cold", "large", "mashed", "boiling", "minced", "1/2", "freshly", "fresh", "package of", "chopped", "pieces", "baked", "beaten", "slices", "for each", ".", "half", "any ", "ripe", "peeled", "slivered"]
   #usuwanie elementów ingredientXY od 01 do 06
-  for i in range(1,6):
+  for i in range(1,10):
     products.remove("Ingredient0" + str(i))
+  for i in range(0,9):
+    products.remove("Ingredient1" + str(i))
   #usuwanie wszystkiego po przecinku
   new_list = list(map(lambda product: product.split(",", 1)[0], products))
   #naprawa 10 i 1 na słowne
@@ -47,11 +49,12 @@ def clean_product_names(products):
   #usuniecie pustych stringów
   new_list.remove("")
   #Sprawdzenie ilości produktów
-  #print(len(new_list))
-
+  print(len(new_list))
+  print(new_list)
   return new_list
 
-products = product_list_from_csv("recipes.csv")
+cvs_name = "../../recipes.csv"
+products = product_list_from_csv(cvs_name)
 products = clean_product_names(products)
 
 json_data = [{"model": "products.product", "pk": i, "fields": {"name": name}} for (i, name) in enumerate(products)]
