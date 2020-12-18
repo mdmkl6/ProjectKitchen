@@ -22,11 +22,15 @@ from recipes.views import recipes_view
 from products.views import products_view
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls), 
     url('signup/', views.signup, name='signup'),  
     # url('home/',views.home),
     path('', include('django.contrib.auth.urls')),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
-    path('recipes/', recipes_view),
-    path('products/', products_view)]
+    path('recipes/', recipes_view, name='recipes'),
+    path('products/', products_view, name='products'),
+    path('', include('kitchen.urls')),
+    path('', include('shopping.urls'))  
+  ]

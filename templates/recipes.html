@@ -1,4 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <h1>Recipes page</h1>
+
+
 
 <ul>
   {% for recipe in data %}
@@ -14,3 +19,4 @@
    </li>
   {% endfor %}
 </ul>
+{% endblock %}

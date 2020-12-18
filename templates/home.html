@@ -7,8 +7,14 @@
 {% block content %}
 {% if user.is_authenticated %}
   <h1>Hi {{ user.username }}! </h1>
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
+  <p><a href="{% url 'kitchen' %}">Kitchen</a></p>
+  <p><a href="{% url 'shopping' %}">Shopping List</a></p>
+  <p><a href="{% url 'recipes' %}">Recipes</a></p>
+  <p><a href="{% url 'products' %}">Products</a></p>
   
+
+  <p><a href="{% url 'logout' %}">Log Out</a></p>
+
 {% else %}
   
   <h1>

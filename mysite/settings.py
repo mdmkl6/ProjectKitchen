@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     'products',
     'recipes',
+    'kitchen',
+    'shopping'
 ]
 
 MIDDLEWARE = [
