@@ -18,4 +18,4 @@ class TestUrls(SimpleTestCase):
     url = reverse('products')
     self.assertEquals(resolve(url).func,products_view)
 
-#porblem z home view 
+#porblem z home_view 
