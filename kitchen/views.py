@@ -6,7 +6,8 @@ from .forms import ProductsForm
 
 # Create your views here.
 def kitchen_view(request):
-  kitchen_list = Products.objects.order_by('id')
+  user = request.user
+  kitchen_list = Products.objects.filter(owner=user).order_by('id')
 
   form = ProductsForm()
 
@@ -19,24 +20,27 @@ def addProducts(request):
     form = ProductsForm(request.POST)
 
     if form.is_valid():
-        new_kitchen = Products(text=request.POST['text'])
+        new_kitchen = Products(text=request.POST['text'], owner=request.user)
         new_kitchen.save()
 
     return redirect('kitchen')
 
 def finishedProducts(request, kitchen_id):
-    kitchen = Products.objects.get(pk=kitchen_id)
+    user = request.user
+    kitchen = Products.objects.filter(owner=user).get(pk=kitchen_id)
     kitchen.finished = True
     kitchen.save()
 
     return redirect('kitchen')
 
 def deleteFinished(request):
-    Products.objects.filter(finished__exact =True).delete()
+    user = request.user
+    Products.objects.filter(finished__exact =True, owner=user).delete()
 
     return redirect('kitchen')
 
 def deleteAll(request):
-    Products.objects.all().delete()
+    user = request.user
+    Products.objects.filter(owner=user).all().delete()
 
     return redirect('kitchen')

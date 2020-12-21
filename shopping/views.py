@@ -6,7 +6,8 @@ from .forms import ToBuyForm
 
 # Create your views here.
 def shopping_view(request):
-  shopping_list = ToBuy.objects.order_by('id')
+  user = request.user
+  shopping_list = ToBuy.objects.filter(owner=user).order_by('id')
 
   form = ToBuyForm()
 
@@ -19,7 +20,7 @@ def addToBuy(request):
     form = ToBuyForm(request.POST)
 
     if form.is_valid():
-        new_shopping = ToBuy(text=request.POST['text'])
+        new_shopping = ToBuy(text=request.POST['text'], owner=request.user)
         new_shopping.save()
 
     return redirect('shopping')
@@ -27,6 +28,7 @@ def addToBuy(request):
 
 
 def done(request):
-    ToBuy.objects.all().delete()
+    user = request.user
+    ToBuy.objects.filter(owner=user).all().delete()
 
     return redirect('shopping')
