@@ -1,5 +1,6 @@
 A short description of the recommender system
-=
+=============================================
+
 The goal of our recommender system is to suggest the recipes based on the preferences of the user. The type of our recommender system will be Collaborative Filtering – the method which makes recommendations based on group of people which has similar tastes to concrete user. 
 
 This method has two approaches:
