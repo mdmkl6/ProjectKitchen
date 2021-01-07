@@ -20,33 +20,52 @@ def kitchen_view(request):
 
 
 @require_POST
-def addProducts(request):
+def add_products(request):
     form = ProductsForm(request.POST)
-
+    user = request.user
+    kitchen_list = Products.objects.filter(owner=user).order_by('id')
     if form.is_valid():
-        new_kitchen = Products(text=request.POST['text'], owner=request.user)
+        new_kitchen = Products(text=request.POST['text'], owner=request.user, amount=request.POST['amount'])
+        
+        if new_kitchen.amount == "0":
+          new_kitchen.finished = True
+
+        for product in kitchen_list:
+          if(product.text == new_kitchen.text):
+            return redirect('kitchen')
         new_kitchen.save()
 
     return redirect('kitchen')
 
 
-def finishedProducts(request, kitchen_id):
+def finished_products(request, kitchen_id):
     user = request.user
     kitchen = Products.objects.filter(owner=user).get(pk=kitchen_id)
     kitchen.finished = True
+    kitchen.amount = '0'
     kitchen.save()
 
     return redirect('kitchen')
 
 
-def deleteFinished(request):
+def change_amount(request, product_id):
+    user = request.user
+    product = Products.objects.filter(owner=user).get(pk=product_id)
+    product.amount = request.POST['amount']
+    if product.amount == '0':
+      product.finished = True
+    product.save()
+
+    return redirect('kitchen')
+
+def delete_finished(request):
     user = request.user
     Products.objects.filter(finished__exact =True, owner=user).delete()
 
     return redirect('kitchen')
 
 
-def deleteAll(request):
+def delete_all(request):
     user = request.user
     Products.objects.filter(owner=user).all().delete()
 
@@ -59,3 +78,4 @@ def autocomplete_kitchen(request):
         products_names = list(map(lambda product: product.name, query_set))
         return JsonResponse(products_names, safe=False)
     return render(request, 'kitchen.html')
+    

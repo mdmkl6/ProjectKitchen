@@ -1,6 +1,7 @@
 from django.db import models
 import json
 
+
 # Create your models here.
 class Recipe(models.Model):
   title = models.TextField()
@@ -8,6 +9,7 @@ class Recipe(models.Model):
   units = models.TextField()
   quantities = models.TextField()
   ingredients = models.TextField()
+  
   def __str__(self):
     return self.title
   

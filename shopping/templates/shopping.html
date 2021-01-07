@@ -27,7 +27,13 @@
 
 {% block content %}
 	<div class="container-fluid" id="wrapper">
-			
+    <div style = "position: absolute; top: 20px; left: 30px; border: 2px solid pink"> 
+      <form action="{% url 'home' %}" >
+        <span class="input-group-btn">
+          <button type="submit" class="btn btn-default" id="add-btn">HOME</button>
+        </span>  
+      </form>
+    </div>			
 		<div class="row">
 			<div class="col-lg-4 col-lg-offset-4" id="content">
 				<h2>Add product to your shopping list</h2>
@@ -36,22 +42,25 @@
 					{% csrf_token %}
 					<div class="form-group">
 						<div class="input-group">
-							{{ form.text }}
+							{{ form.text }} {{ form.amount }}
 							<span class="input-group-btn">
 								<button type="submit" class="btn btn-default" id="add-btn">ADD</button>
 							</span>
 						</div>
 					</div>
 				</form>
+        
         <p></p>
         <div class="row t10">
 					<div class="col-lg-12">
 						<div class="btn-toolbar">
 								
 							<div class="btn-group">
-								<a href="{% url 'done' %}"><button type="button" class="btn btn-warning">
+                <div style = "position: absolute; bottom: 50px; right: 150px; border: 4px solid pink"> 
+								  <a href="{% url 'done' %}"><button type="button" class="btn btn-warning">
 									<i class="glyphicon glyphicon-trash"></i> DONE
-								</button></a>
+								  </button></a>
+                </div>
 							</div>
 						</div>
 					</div>
@@ -61,8 +70,9 @@
             
 					{% for tobuy in shopping_list %}
 							
-						<p>{{ tobuy.text }}</p>
-							
+						<p>{{ tobuy.text }} - {{ tobuy.amount }}</p>	
+
+						
 					{% endfor %}
 				</ul>
 			</div>

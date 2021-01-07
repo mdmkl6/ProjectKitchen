@@ -19,14 +19,20 @@ def shopping_view(request):
 
 
 @require_POST
-def addToBuy(request):
+def add_to_buy(request):
     form = ToBuyForm(request.POST)
+    user = request.user
+    shopping_list = ToBuy.objects.filter(owner=user).order_by('id')
 
     if form.is_valid():
-        new_shopping = ToBuy(text=request.POST['text'], owner=request.user)
+        new_shopping = ToBuy(text=request.POST['text'], owner=request.user, amount=request.POST['amount'])
+        for product in shopping_list:
+          if product.text == new_shopping.text:
+            return redirect('shopping')
         new_shopping.save()
 
     return redirect('shopping')
+
 
 
 def done(request):

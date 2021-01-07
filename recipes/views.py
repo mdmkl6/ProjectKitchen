@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from .models import Recipe
 # Create your views here.
 
+
 def recipes_view(request):
   all_recipes = Recipe.objects.all()
   data = []
