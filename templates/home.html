@@ -4,7 +4,12 @@
   Home
 {% endblock %}
 
+{% block home_button %}
+{% endblock %}
+
 {% block content %}
+
+
 {% if user.is_authenticated %}
   <h1>Hi {{ user.username }}! </h1>
   <p><a href="{% url 'kitchen' %}">Kitchen</a></p>

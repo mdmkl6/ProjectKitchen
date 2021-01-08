@@ -48,14 +48,14 @@ def autocomplete_shopping_list(request):
         all_products_to_buy_names = list(map(lambda product: product.text, 
                                              ToBuy.objects.filter(owner=user)))
 
-        query_set = Product.objects.filter(name__istartswith=request.GET.get('term'))
+        found_products = Product.objects.filter(name__istartswith=request.GET.get('term'))
         products_names = []
         
-        i = 0
-        for product in query_set:
+        found_product_index = 0
+        for product in found_products:
             if product.name not in all_products_to_buy_names:
-                products_names.insert(i, product.name)
-                i += 1
+                products_names.insert(found_product_index, product.name)
+                found_product_index += 1
             else:
                 products_names.append(product.name)
         return JsonResponse(products_names, safe=False)

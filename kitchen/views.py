@@ -74,8 +74,8 @@ def delete_all(request):
 
 def autocomplete_kitchen(request):
     if 'term' in request.GET:
-        query_set = Product.objects.filter(name__istartswith=request.GET.get('term'))
-        products_names = list(map(lambda product: product.name, query_set))
+        found_products = Product.objects.filter(name__istartswith=request.GET.get('term'))
+        products_names = list(map(lambda product: product.name, found_products))
         return JsonResponse(products_names, safe=False)
     return render(request, 'kitchen.html')
     

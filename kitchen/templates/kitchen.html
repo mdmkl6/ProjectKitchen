@@ -25,14 +25,15 @@
 
 {% block content %}
   
-	<div class="container-fluid" id="wrapper">
-      <div style = "position: absolute; top: 20px; left: 30px; border: 2px solid pink"> 
-          <form action="{% url 'home' %}" >
-            <span class="input-group-btn">
-              <button type="submit" class="btn btn-default" id="add-btn">HOME</button>
-            </span>  
-          </form>
-      </div>
+	<!--
+<div style = "position: absolute; top: 20px; left: 30px; border: 2px solid pink"> 
+  <form action="{% url 'home' %}" >
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-default" id="add-btn">HOME</button>
+    </span>  
+  </form>
+</div>
+-->
 	    <div class="row">
 			<div class="col-lg-4 col-lg-offset-4" id="content">
 				<h2>Add product to your kitchen</h2>
@@ -102,7 +103,7 @@
 
 <script type="text/javascript">
     $( function() {
-        $(".form-control").autocomplete({
+        $(".form-autocomplete").autocomplete({
         source: '{% url 'autocomplete_kitchen' %}',
         });
     });
