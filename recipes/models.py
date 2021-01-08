@@ -21,7 +21,7 @@ class Recipe(models.Model):
     for i in range(19):
        if ingredients[i] != " ": 
         elements_list.append({"quantity": quantities[i], "unit": units[i], "ingredient": ingredients[i]})
-    data_dict = {"title": self.title, "directions": self.directions, "elements": elements_list}
+    data_dict = {"id": self.id, "title": self.title, "directions": self.directions, "elements": elements_list}
     return data_dict
 
 

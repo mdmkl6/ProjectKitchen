@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from .models import Recipe
+
 # Create your views here.
 
 
@@ -10,3 +10,12 @@ def recipes_view(request):
   for item in all_recipes:
     data.append(item.get_dict())
   return render(request, 'recipes.html', {"data": data})
+
+
+def single_recipe_view(request, id):
+  chosen_recipe = Recipe.objects.get(id=id)
+  context = {
+      "recipe": chosen_recipe.get_dict(),
+      #"recipe": chosen_recipe,
+  }
+  return render(request, 'recipe.html', context)
