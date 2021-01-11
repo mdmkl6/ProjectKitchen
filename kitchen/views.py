@@ -12,7 +12,6 @@ def kitchen_view(request):
   kitchen_list = Products.objects.filter(owner=user).order_by('id')
   form = ProductsForm()
   context = {'kitchen_list' : kitchen_list, 'form' : form}
-  
   return render(request, 'kitchen.html', context)
 
 @require_POST
@@ -38,8 +37,7 @@ def add_products(request):
           product = Product(name=text)
           product.save()
           new_kitchen = Products(product=product, owner=user, quantity=request.POST['amount'])
-          new_kitchen.save()          
-    
+          new_kitchen.save()           
     return redirect('kitchen')
 
 def finished_products(request, kitchen_id):
@@ -47,8 +45,7 @@ def finished_products(request, kitchen_id):
     kitchen = Products.objects.filter(owner=user).get(pk=kitchen_id)
     kitchen.quantity = 0
     kitchen.finished = True
-    kitchen.save()
-    
+    kitchen.save()   
     return redirect('kitchen')
 
 def change_amount(request, product_id):
@@ -57,20 +54,17 @@ def change_amount(request, product_id):
     product.quantity = request.POST['amount']
     if product.quantity == 0:
       product.finished = True
-    product.save()    
-    
+    product.save()        
     return redirect('kitchen')
 
 def delete_finished(request):
     user = request.user
-    Products.objects.filter(finished__exact=True, owner=user).delete()
-    
+    Products.objects.filter(finished__exact=True, owner=user).delete()    
     return redirect('kitchen')
 
 def delete_all(request):
     user = request.user
-    Products.objects.filter(owner=user).all().delete()
-    
+    Products.objects.filter(owner=user).all().delete() 
     return redirect('kitchen')
 
 def autocomplete_kitchen(request):
