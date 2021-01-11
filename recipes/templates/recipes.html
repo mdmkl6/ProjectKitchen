@@ -19,7 +19,7 @@
 -->
 
 <ul>
-  {% for recipe in data %}
+  {% for recipe in recipes %}
    <li><a href='{% url "recipe" recipe.id%}'>
         <h2>{{ recipe.title }}</h2></a>
    <!--{% for item in recipe.elements %}

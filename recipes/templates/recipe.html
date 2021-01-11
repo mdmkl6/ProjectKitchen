@@ -18,11 +18,11 @@
 -->
 
    <h2>{{ recipe.title }}</h2>
-   {% for item in recipe.elements %}
+   {% for item in recipe.productinrecipe_set.all %}
     <li>
       {{ item.quantity }}
       {{ item.unit }}
-      {{ item.ingredient }}
+      {{ item.product }}
     </li>
    {% endfor %}
    <p>{{ recipe.directions }}</p>

@@ -3,21 +3,17 @@ from django.views.decorators.http import require_POST
 
 from .models import Products
 from .forms import ProductsForm
-
 from products.models import Product
 from django.http import JsonResponse
 
 # Create your views here.
-
 def kitchen_view(request):
   user = request.user
   kitchen_list = Products.objects.filter(owner=user).order_by('id')
-
   form = ProductsForm()
-
   context = {'kitchen_list' : kitchen_list, 'form' : form}
+  
   return render(request, 'kitchen.html', context)
-
 
 @require_POST
 def add_products(request):
@@ -25,52 +21,57 @@ def add_products(request):
     user = request.user
     kitchen_list = Products.objects.filter(owner=user).order_by('id')
     if form.is_valid():
-        new_kitchen = Products(text=request.POST['text'], owner=request.user, amount=request.POST['amount'])
+        text = request.POST['text']
+        in_products = False
         
-        if new_kitchen.amount == "0":
-          new_kitchen.finished = True
-
         for product in kitchen_list:
-          if(product.text == new_kitchen.text):
+          if(product.product.name == text):
             return redirect('kitchen')
-        new_kitchen.save()
 
+        for product in Product.objects.filter(name__in=[text, text+"s", text+"es"]).all():
+          new_kitchen = Products(product=product, owner=user, quantity=request.POST['amount'])
+          if new_kitchen.quantity == 0:
+            new_kitchen.finished = True
+          new_kitchen.save()
+          in_products = True
+        if not in_products:
+          product = Product(name=text)
+          product.save()
+          new_kitchen = Products(product=product, owner=user, quantity=request.POST['amount'])
+          new_kitchen.save()          
+    
     return redirect('kitchen')
-
 
 def finished_products(request, kitchen_id):
     user = request.user
     kitchen = Products.objects.filter(owner=user).get(pk=kitchen_id)
+    kitchen.quantity = 0
     kitchen.finished = True
-    kitchen.amount = '0'
     kitchen.save()
-
+    
     return redirect('kitchen')
-
 
 def change_amount(request, product_id):
     user = request.user
     product = Products.objects.filter(owner=user).get(pk=product_id)
-    product.amount = request.POST['amount']
-    if product.amount == '0':
+    product.quantity = request.POST['amount']
+    if product.quantity == 0:
       product.finished = True
-    product.save()
-
+    product.save()    
+    
     return redirect('kitchen')
 
 def delete_finished(request):
     user = request.user
-    Products.objects.filter(finished__exact =True, owner=user).delete()
-
+    Products.objects.filter(finished__exact=True, owner=user).delete()
+    
     return redirect('kitchen')
-
 
 def delete_all(request):
     user = request.user
     Products.objects.filter(owner=user).all().delete()
-
+    
     return redirect('kitchen')
-
 
 def autocomplete_kitchen(request):
     if 'term' in request.GET:

@@ -59,7 +59,7 @@
         <p> To mark product, that have run out  - click on product </p>
 					{% for product in kitchen_list %}
 						{% if product.finished %}
-						    <li class="list-group-item product-finished"><s>{{ product.text }}</s> - {{ product.amount }} </li>
+						    <li class="list-group-item product-finished"><s>{{ product }}</s> - {{ product.quantity }} </li>
                 
 						{% else %}
 							
@@ -67,7 +67,7 @@
                 {% csrf_token %}
                 <div class="form-group">
                   <div class="input-group">
-                    <a href="{% url 'finished' product.id %}"><li class="list-group-item" >{{ product.text }} </a> - {{ product.amount }} 
+                    <a href="{% url 'finished' product.id %}"><li class="list-group-item" >{{ product }} </a> - {{ product.quantity }} 
                       &nbsp&nbsp&nbsp{{ form.amount }}
                     <span class="input-group-btn">
                       <button type="submit" class="btn btn-default" id="add-btn">CHANGE</button>
