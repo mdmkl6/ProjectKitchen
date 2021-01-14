@@ -27,7 +27,7 @@ urlpatterns = [
     url('signup/', views.signup, name='signup'),  
     # url('home/',views.home),
     path('', include('django.contrib.auth.urls')),
-    path('', TemplateView.as_view(template_name='home.html'), name='home'),
+    path('',views.home, name='home'),
     path('products/', products_view, name='products'),
     path('recipes/', include('recipes.urls')),
     path('', include('kitchen.urls')),
