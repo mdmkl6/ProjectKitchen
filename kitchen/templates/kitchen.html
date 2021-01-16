@@ -25,19 +25,17 @@
 
 {% block content %}
   
-	<!--
-<div style = "position: absolute; top: 20px; left: 30px; border: 2px solid pink"> 
-  <form action="{% url 'home' %}" >
-    <span class="input-group-btn">
-      <button type="submit" class="btn btn-default" id="add-btn">HOME</button>
-    </span>  
-  </form>
-</div>
--->
+
 	    <div class="row">
 			<div class="col-lg-4 col-lg-offset-4" id="content">
-				<h2>Add product to your kitchen</h2>
-					
+			
+				<div class="card border-left-primary shadow h-100 py-2">
+				<div class="card-body">
+				<div class="row no-gutters align-items-center">
+				<div class="col mr-2">
+				<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+				<h2>Add product to kitchen</h2>
+
 				<form action="{% url 'add' %}" method="POST" role="form">
 					{% csrf_token %}
 					<div class="form-group">
@@ -49,62 +47,78 @@
 						</div>
 					</div>
 				</form>
-        <p></p>
 
-					</div>
 				</div>
-        <p></p>
-				<ul class="list-group t20">
-        <h2> Products in your kitchen: </h2> 
-        <p> To mark product, that have run out  - click on product </p>
-					{% for product in kitchen_list %}
-						{% if product.finished %}
-						    <li class="list-group-item product-finished"><s>{{ product }}</s> - {{ product.quantity }} </li>
-                
-						{% else %}
-							
-              <form action="{% url 'change_amount' product.id %}" method="POST" role="form">
-                {% csrf_token %}
-                <div class="form-group">
-                  <div class="input-group">
-                    <a href="{% url 'finished' product.id %}"><li class="list-group-item" >{{ product }} </a> - {{ product.quantity }} 
-                      &nbsp&nbsp&nbsp{{ form.amount }}
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn btn-default" id="add-btn">CHANGE</button>
-                    </span>
-                  </div>
-                </div>
-              </form>    
-                         
-						{% endif %}
-					{% endfor %}
-				</ul>
-    
-      <div class="row t10">
-				<div class="col-lg-12">
-					<div class="btn-toolbar">
-						<div class="btn-group">
-              <div style = "position: absolute; bottom: 60px; right: 150px; border: 4px solid pink"> 
-								<a href="{% url 'deletefinished' %}"><button type="button" class="btn btn-warning">
-                <i class="glyphicon glyphicon-trash"></i> DELETE MARKED</button></a>
-              </div>
-                <p></p>
-							
-							<div class="btn-group">
-                <div style = "position: absolute; bottom: 20px; right: 150px; border: 4px solid pink"> 
-								  <a href="{% url 'deleteall' %}"><button type="button" class="btn btn-warning">
-									<i class="glyphicon glyphicon-trash"></i> DELETE ALL</button></a>
-                </div>
-							</div>
-						</div>
-          </div>
+			
+				</div>
+				</div>
+				</div>
 			</div>
 		</div>
+        	<p></p>
 
+			
+        	<p></p>
+				<ul class="list-group t20">
+					<h2> Products: </h2> 
+					<p> To mark product, that have run out  - click on product </p>
+								{% for product in kitchen_list %}
+									{% if product.finished %}
+										<s>{{ product }} - {{ product.quantity }} </s>
+							
+									{% else %}
+										
+						  										
+									<form action="{% url 'change_amount' product.id %}" method="POST" role="form">
+										
+										{% csrf_token %}
+										<div style = "position: static;"> 
+										<div class="form-group">
+										  <div class="input-group" >
+												  
+											<a href="{% url 'finished' product.id %}">{{ product }} </a> - {{ product.quantity }} 
+											  &nbsp&nbsp&nbsp 	<div class="col-xs-1">{{ form.amount }}</div>
+											  
+												<span class="input-group-btn">
+													
+											  	<button type="submit" class="btn btn-default" id="add-btn"></button>
+											</span>
+											
+										  </div>
+										</div>
+										</div>
+									  </form>  
+									
+									{% endif %}
+								{% endfor %}
+				</ul>
+			</div>
+		
+	
+	<p></p>
+    <div class="row">
+		<div class="col-lg-12">
+			<div class="btn-toolbar">
+				<div class="btn-group">
+					  <div style = "position: static;"> 
+						<span class="input-group-btn">
+						<a href="{% url 'deletefinished' %}"><button type="button" class="btn btn-warning">
+						DELETE MARKED </button></a>
+						
+             	 		<a href="{% url 'deleteall' %}"><button type="button" class="btn btn-warning">
+						DELETE ALL</button></a>
+						</span>
+					</div>
+				</div>
+          	</div>
+		</div>
+	</div>
+
+				
 <script type="text/javascript">
     $( function() {
         $(".form-autocomplete").autocomplete({
-        source: '{% url 'autocomplete_kitchen' %}',
+        source: "{% url 'autocomplete_kitchen' %}",
         });
     });
 </script>
