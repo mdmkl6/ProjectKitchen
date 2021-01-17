@@ -4,20 +4,20 @@
   Home
 {% endblock %}
 
-
-
 {% block content %}
-
 
 {% if user.is_authenticated %}
   <h1>Hi {{ user.username }}! </h1>
-  <p>Podpowiadane przepisy tutaj beda</p>
+  
+  <h4>Here are some suggestions for you:</h4>
+
+  {% for recipe in recipes %}
+  <li>{{ recipe.title }}</li>
+  {% endfor %}
 
 {% else %}
   
   <h1>
-  
-  
     {{"Create your kitchen.     "}} 
   </h1>
 

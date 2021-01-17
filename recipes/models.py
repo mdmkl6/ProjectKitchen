@@ -5,6 +5,7 @@ from products.models import Product
 class Recipe(models.Model):
   title = models.TextField()
   directions = models.TextField()
+  priority = models.IntegerField(default=0)
   
   def __str__(self):
     return self.title
