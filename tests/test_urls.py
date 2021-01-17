@@ -67,5 +67,9 @@ class TestUrls(SimpleTestCase):
   def test_shopping_done_url(self):
     url = reverse('done')
     self.assertEquals(resolve(url).func,done)
+
+  def test_shopping_autocomplete_list_url(self):
+    url = reverse('autocomplete_shopping_list')
+    self.assertEquals(resolve(url).func,autocomplete_shopping_list)
  
   

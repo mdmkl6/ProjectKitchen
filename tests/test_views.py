@@ -30,6 +30,7 @@ class TestViews(TestCase):
     self.shopping_url=reverse('shopping')
     self.shopping_addToBuy_url=reverse('add_to_buy')
     self.shopping_done_url=reverse('done')
+    self.shopping_autocomplete_list_url=reverse('autocomplete_shopping_list')
 
 
   def test_singup_view(self):
@@ -87,6 +88,12 @@ class TestViews(TestCase):
     self.assertTemplateUsed(response, 'shopping.html')
     #self.assertRedirects(response, self.shopping_url, 200, 200)
 
+  def test_shopping_autocomplete_list_view(self):
+    response = self.client.get(self.shopping_autocomplete_list_url)
+
+    self.assertEquals(response.status_code, 200)
+    self.assertTemplateUsed(response, 'shopping.html')
+
 
        
 ###############################################################3
@@ -97,13 +104,15 @@ class TestViews(TestCase):
     self.assertEquals(response.status_code, 200)
     self.assertTemplateUsed(response, 'kitchen.html')
 
-"""
+
   def test_kitchen_add_view(self):
-    response = self.client.get(self.kitchen_add_url)
+    response = self.client.get(self.kitchen_url,data={'text':'abcd'})
+    self.client.post(self.kitchen_add_url, data={'text':'abcd'})
+
 
     self.assertEquals(response.status_code, 200)
-    self.assertTemplateUsed(response, 'kitchen.html')
 
+"""
   def test_kitchen_finished_view(self):
     response = self.client.get(self.kitchen_finished_url)
 
