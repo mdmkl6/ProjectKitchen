@@ -33,6 +33,7 @@ def add_products(request):
             new_kitchen.finished = True
           new_kitchen.save()
           in_products = True
+       
         if not in_products:
           product = Product(name=text)
           product.save()

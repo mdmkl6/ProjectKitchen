@@ -3,7 +3,6 @@ from django.views.decorators.http import require_POST
 
 from .models import ToBuy
 from .forms import ToBuyForm
-
 from products.models import Product
 from django.http import JsonResponse
 
@@ -21,11 +20,25 @@ def add_to_buy(request):
     user = request.user
     shopping_list = ToBuy.objects.filter(owner=user).order_by('id')
     if form.is_valid():
-        new_shopping = ToBuy(text=request.POST['text'], owner=request.user, amount=request.POST['amount'])
+        text = request.POST['text']
+        in_products = False
+        
         for product in shopping_list:
-          if product.text == new_shopping.text:
+          if(product.product.name == text):
             return redirect('shopping')
-        new_shopping.save()
+
+        for product in Product.objects.filter(name__in=[text, text+"s", text+"es"]).all():
+          new_shopping = ToBuy(product=product, owner=user, quantity=request.POST['amount'])
+          if new_shopping.quantity == 0:
+            return redirect('shopping')
+          new_shopping.save()
+          in_products = True
+        
+        if not in_products:
+          product = Product(name=text)
+          product.save()
+          new_shopping = ToBuy(product=product, owner=user, quantity=request.POST['amount'])
+          new_shopping.save()           
     return redirect('shopping')
 
 def done(request):
@@ -33,11 +46,10 @@ def done(request):
     ToBuy.objects.filter(owner=user).all().delete()
     return redirect('shopping')
 
-    
 def autocomplete_shopping_list(request):
     user = request.user
     if 'term' in request.GET:
-        all_products_to_buy_names = list(map(lambda product: product.text, ToBuy.objects.filter(owner=user)))
+        all_products_to_buy_names = list(map(lambda product: product, ToBuy.objects.filter(owner=user)))
         found_products = Product.objects.filter(name__istartswith=request.GET.get('term'))
         products_names = []
         found_product_index = 0
