@@ -6,31 +6,13 @@
 
 
 {% block content %}
-<h1>Recipes page</h1>
+  <h1>Recipes page</h1>
 
-<!--
-<div style = "position: absolute; top: 20px; left: 30px; border: 2px solid pink"> 
-  <form action="{% url 'home' %}" >
-    <span class="input-group-btn">
-      <button type="submit" class="btn btn-default" id="add-btn">HOME</button>
-    </span>  
-  </form>
-</div>
--->
-
-<ul>
-  {% for recipe in recipes %}
-   <li><a href='{% url "recipe" recipe.id%}'>
-        <h2>{{ recipe.title }}</h2></a>
-   <!--{% for item in recipe.elements %}
-    <li>
-      {{ item.quantity }}
-      {{ item.unit }}
-      {{ item.ingredient }}
-    </li>
-   {% endfor %}
-   <p>{{ recipe.directions }}</p>-->
-   </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for recipe in recipes %}
+      <li>
+          <a href='{% url "recipe" recipe.id%}'>{{ recipe.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endblock %}

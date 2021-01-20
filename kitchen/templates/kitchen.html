@@ -14,8 +14,7 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <style>
-		/* lista scrollowana */
-		.ui-autocomplete {
+	.ui-autocomplete {
     	max-height: 150px;
     	overflow-y: auto;
     	overflow-x: hidden;
@@ -24,75 +23,60 @@
 {% endblock %}
 
 {% block content %}
-  
-
-	    <div class="row">
-			<div class="col-lg-4 col-lg-offset-4" id="content">
-			
-				<div class="card border-left-primary shadow h-100 py-2">
-				<div class="card-body">
-				<div class="row no-gutters align-items-center">
-				<div class="col mr-2">
-				<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-				<h2>Add product to kitchen</h2>
-
-				<form action="{% url 'add' %}" method="POST" role="form">
+  	<div class="row">
+	<div class="col-lg-4 col-lg-offset-4" id="content">
+	<div class="card border-left-primary shadow h-100 py-2">
+	<div class="card-body">
+	<div class="row no-gutters align-items-center">
+	<div class="col mr-2">
+	<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+		<h2>Add product to kitchen</h2>
+		<form action="{% url 'add' %}" method="POST" role="form">
+			{% csrf_token %}
+			<div class="form-group">
+				<div class="input-group">
+					{{ form.text }} {{ form.amount }}
+					<span class="input-group-btn">
+						<button type="submit" class="btn btn-default" id="add-btn">ADD</button>
+					</span>
+				</div>
+			</div>
+		</form>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+    
+	<p></p>
+	<p></p>
+	
+	<ul class="list-group t20">
+		<h2> Products: </h2> 
+		<p> To mark product, that have run out  - click on product </p>
+		{% for product in kitchen_list %}
+			{% if product.finished %}
+				<s>{{ product }} - {{ product.quantity }} </s>
+			{% else %}
+				<form action="{% url 'change_amount' product.id %}" method="POST" role="form">
 					{% csrf_token %}
+					<div style = "position: static;"> 
 					<div class="form-group">
-						<div class="input-group">
-							{{ form.text }} {{ form.amount }}
+						<div class="input-group" >
+							<a href="{% url 'finished' product.id %}">{{ product }} </a> - {{ product.quantity }} 
+										  &nbsp&nbsp&nbsp 	<div class="col-xs-1">{{ form.amount }}</div>
 							<span class="input-group-btn">
-								<button type="submit" class="btn btn-default" id="add-btn">ADD</button>
+								<button type="submit" class="btn btn-default" id="add-btn"></button>
 							</span>
 						</div>
 					</div>
-				</form>
-
-				</div>
-			
-				</div>
-				</div>
-				</div>
-			</div>
-		</div>
-        	<p></p>
-
-			
-        	<p></p>
-				<ul class="list-group t20">
-					<h2> Products: </h2> 
-					<p> To mark product, that have run out  - click on product </p>
-								{% for product in kitchen_list %}
-									{% if product.finished %}
-										<s>{{ product }} - {{ product.quantity }} </s>
-							
-									{% else %}
-										
-						  										
-									<form action="{% url 'change_amount' product.id %}" method="POST" role="form">
-										
-										{% csrf_token %}
-										<div style = "position: static;"> 
-										<div class="form-group">
-										  <div class="input-group" >
-												  
-											<a href="{% url 'finished' product.id %}">{{ product }} </a> - {{ product.quantity }} 
-											  &nbsp&nbsp&nbsp 	<div class="col-xs-1">{{ form.amount }}</div>
-											  
-												<span class="input-group-btn">
-													
-											  	<button type="submit" class="btn btn-default" id="add-btn"></button>
-											</span>
-											
-										  </div>
-										</div>
-										</div>
-									  </form>  
-									
-									{% endif %}
-								{% endfor %}
-				</ul>
-			</div>
+					</div>
+				</form>  
+			{% endif %}
+		{% endfor %}
+	</ul>
+	</div>
 		
 	
 	<p></p>
