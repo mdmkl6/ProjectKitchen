@@ -32,13 +32,14 @@ const getNumericValue = (stringValue) =>{
 
 if (document.getElementById('s-1')){
 
-	const stars = [document.getElementById('s-1'),
+	/*const stars = [document.getElementById('s-1'),
 					document.getElementById('s-2'),
 					document.getElementById('s-3'),
 					document.getElementById('s-4'),
-					document.getElementById('s-5')]
+					document.getElementById('s-5')]*/
+	
+	const stars = Array.from(document.getElementsByClassName('star-btn'))
 					
-	console.log(stars)
 	stars.forEach(item=> item.addEventListener('mouseover', event=>{
 		handleSelect(event.target.id)
 	}))

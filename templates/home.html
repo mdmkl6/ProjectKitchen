@@ -12,7 +12,9 @@
   <h4>Here are some suggestions for you:</h4>
 
   {% for recipe in recipes %}
-  <li>{{ recipe.title }}</li>
+    <li>
+      <a href='{% url "recipe" recipe.id%}'>{{ recipe.title }}</a>
+    </li>
   {% endfor %}
 
 {% else %}

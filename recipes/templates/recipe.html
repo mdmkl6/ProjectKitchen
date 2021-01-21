@@ -55,5 +55,14 @@
 
 	<script src="{% static 'scripts/user_rating.js' %}" defer></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
+	
+	<script type="text/javascript">
+		let stars = Array.from(document.getElementsByClassName('star-btn'))
+		for(i=0; i<stars.length; i++){
+			if(i < {{ user_rating }}){
+				stars[i].classList.add('checked')
+			}
+		}
+	</script>
+	
 {% endblock %}
