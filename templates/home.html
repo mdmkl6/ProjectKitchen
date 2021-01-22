@@ -9,7 +9,7 @@
 {% if user.is_authenticated %}
   <h1>Hi {{ user.username }}! </h1>
   
-  <h4>Here are some suggestions for you:</h4>
+  <p>Here are some suggestions based on your products:</p>
 
   {% for recipe in recipes %}
     <li>

@@ -1,6 +1,9 @@
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
+from django.db.models import Count
+from django.db.models import Case
+from django.db.models import When
 from kitchen.models import Products
 from recipes.models import Recipe
 from recipes.models import ProductInRecipe
@@ -22,14 +25,11 @@ def signup(request):
 def get_suggested_recipes(request):
   user = request.user
   kitchen_products = Products.objects.filter(owner=user).values_list('product')
-  recipes = Recipe.objects.all()
-  for recipe in recipes:
-    recipe_products = ProductInRecipe.objects.filter(recipe=recipe).values_list('product')
-    priority = recipe_products.intersection(kitchen_products).count()
-    recipe.priority = priority
-    recipe.save()
-  recipes = Recipe.objects.all().order_by('-priority')
-  return recipes
+  ordered_tuples = ProductInRecipe.objects.filter(product__in=kitchen_products).values('recipe').annotate(priority=Count('recipe')).order_by('-priority')
+  recipe_pks = [x['recipe'] for x in ordered_tuples]
+  preserved_order = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(recipe_pks)])
+  ordered_recipes = Recipe.objects.filter(pk__in=recipe_pks).order_by(preserved_order)
+  return ordered_recipes
 
 def home(request):
   if request.user.is_anonymous:

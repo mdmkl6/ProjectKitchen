@@ -3,13 +3,16 @@ from products.models import Product
 from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator, MaxValueValidator
 
-
 # Create your models here.
 class Recipe(models.Model):
   title = models.TextField()
   directions = models.TextField()
-  priority = models.IntegerField(default=0)
-  
+  """
+  --- 1 sposób ---
+  rated_by = models.ManyToManyField(User, through='UserRating', blank=True
+    									related_name='ratings')
+	"""
+
   def __str__(self):
     return self.title
 
@@ -21,7 +24,6 @@ class ProductInRecipe(models.Model):
 	
 	def __str__(self):
 		return self.product.name
-
 
 class UserRating(models.Model):
 	recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
@@ -35,3 +37,10 @@ class UserRating(models.Model):
 		return f'{self.owner.username} rating {self.score} for {self.recipe.title}'
 
 	
+"""
+--- 2 sposób ---
+class RatingsForRecipe(models.Model):
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
+    rated_by = models.ManyToManyField(User, through='UserRating', blank=True
+    									related_name='ratings')
+"""
