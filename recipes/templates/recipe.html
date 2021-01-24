@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block metadata %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+{% block title %}
+    Recipes page - {{ recipe.title }}
+{% endblock%}
+
+{% block style %}
+  .checked {
+	color: orange;
+}
+
+.star-btn {
+	background-color: inherit !important;
+	border: 0 !important;
+}
+{% endblock %}
+
+{% block content %}
+	<h1>Recipes page</h1>
+
+	<div id="recipe-details">
+		<h2>{{ recipe.title }}</h2>
+		{% for item in recipe.productinrecipe_set.all %}
+			<li>
+			{{ item.quantity }}
+			{{ item.unit }}
+			{{ item.product }}
+			</li>
+		{% endfor %}
+		<p>{{ recipe.directions }}</p>
+	</div>
+  	<div id="rating-container">
+		<p>Rate this recipe:</p>
+		<form class="rate-form" action="" method="POST" id="{{ recipe.id }}">
+			{% csrf_token %}
+			<button type="submit" class="fa fa-star fa-2x star-btn" id="s-1"></button>
+			<button type="submit" class="fa fa-star fa-2x star-btn" id="s-2"></button>
+			<button type="submit" class="fa fa-star fa-2x star-btn" id="s-3"></button>
+			<button type="submit" class="fa fa-star fa-2x star-btn" id="s-4"></button>
+			<button type="submit" class="fa fa-star fa-2x star-btn" id="s-5"></button>
+		</form>
+		<div id="confirm-box">
+			<p>You rated:
+			{% if user_rating %}
+				{{ user_rating }}
+			{% else %}
+				Not rated
+			{% endif %}</p>
+		</div> 
+	</div>
+
+	<script src="{% static 'scripts/user_rating.js' %}" defer></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+	<script type="text/javascript">
+		let stars = Array.from(document.getElementsByClassName('star-btn'))
+		for(i=0; i<stars.length; i++){
+			if(i < {{ user_rating }}){
+				stars[i].classList.add('checked')
+			}
+		}
+	</script>
+	
+{% endblock %}
