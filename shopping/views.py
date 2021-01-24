@@ -1,4 +1,3 @@
-from django.shortcuts import render, redirect
 from django.views.decorators.http import require_POST
 
 from .models import ToBuy
@@ -6,6 +5,7 @@ from .forms import ToBuyForm
 from products.models import Product
 from kitchen.views import add_if_not_present
 from django.http import JsonResponse
+from django.shortcuts import render, redirect
 
 # Create your views here.
 def shopping_view(request):
