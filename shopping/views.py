@@ -4,6 +4,7 @@ from django.views.decorators.http import require_POST
 from .models import ToBuy
 from .forms import ToBuyForm
 from products.models import Product
+from kitchen.views import add_if_not_present
 from django.http import JsonResponse
 
 # Create your views here.
@@ -43,6 +44,9 @@ def add_to_buy(request):
 
 def done(request):
     user = request.user
+    shopping_list = ToBuy.objects.filter(owner=user).all()
+    for item in shopping_list:
+      add_if_not_present(item.product.name, item.quantity, user)      
     ToBuy.objects.filter(owner=user).all().delete()
     return redirect('shopping')
 
