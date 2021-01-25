@@ -4,6 +4,7 @@ from django.views.decorators.http import require_POST
 from .models import Products
 from .forms import ProductsForm
 from products.models import Product
+from django.db.models import F
 from django.http import JsonResponse
 
 # Create your views here.
@@ -14,31 +15,35 @@ def kitchen_view(request):
   context = {'kitchen_list' : kitchen_list, 'form' : form}
   return render(request, 'kitchen.html', context)
 
+def add_if_not_present(text, amount, user):
+  kitchen_list = Products.objects.filter(owner=user).order_by('id')
+  in_products = False
+  for product in kitchen_list:
+    if(product.product.name == text):
+      Products.objects.filter(pk=product.pk).update(quantity=F('quantity')+amount)
+      return
+
+  for product in Product.objects.filter(name__in=[text, text+"s", text+"es"]).all():
+    new_kitchen = Products(product=product, owner=user, quantity=amount)
+    if new_kitchen.quantity == 0:
+      new_kitchen.finished = True
+    new_kitchen.save()
+    in_products = True
+  
+  if not in_products:
+    product = Product(name=text)
+    product.save()
+    new_kitchen = Products(product=product, owner=user, quantity=amount)
+    new_kitchen.save()           
+
 @require_POST
 def add_products(request):
     form = ProductsForm(request.POST)
     user = request.user
-    kitchen_list = Products.objects.filter(owner=user).order_by('id')
     if form.is_valid():
-        text = request.POST['text']
-        in_products = False
-        
-        for product in kitchen_list:
-          if(product.product.name == text):
-            return redirect('kitchen')
-
-        for product in Product.objects.filter(name__in=[text, text+"s", text+"es"]).all():
-          new_kitchen = Products(product=product, owner=user, quantity=request.POST['amount'])
-          if new_kitchen.quantity == 0:
-            new_kitchen.finished = True
-          new_kitchen.save()
-          in_products = True
-       
-        if not in_products:
-          product = Product(name=text)
-          product.save()
-          new_kitchen = Products(product=product, owner=user, quantity=request.POST['amount'])
-          new_kitchen.save()           
+      text = request.POST['text']
+      amount = request.POST['amount']
+      add_if_not_present(text, amount, user)
     return redirect('kitchen')
 
 def finished_products(request, kitchen_id):
