@@ -31,10 +31,11 @@ def user_rating_view(request, id):
         user = request.user
         current_recipe = Recipe.objects.get(id=id)
         rating_value = request.POST.get('rating_value')
-        if not UserRating.objects.filter(recipe=current_recipe, owner=user).exists():
+        if not UserRating.objects.filter(recipe=current_recipe, owner=user):
             rating = UserRating.objects.create(recipe=current_recipe, owner=user,
                                                  score=rating_value)
             rating.save()
+            current_recipe.rated_by.add(rating.owner)
         else:
           rating = UserRating.objects.get(recipe=current_recipe, owner=user)
           rating.score = rating_value

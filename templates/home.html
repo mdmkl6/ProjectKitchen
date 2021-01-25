@@ -7,20 +7,31 @@
 {% block content %}
 
 {% if user.is_authenticated %}
-  <h1>Hi {{ user.username }}! </h1>
+  <h1>Hi {{ user.username }}!</h1>
   
   <h4>Here are some suggestions for you:</h4>
 
+  <ul>
   {% for recipe in recipes %}
     <li>
       <a href='{% url "recipe" recipe.id%}'>{{ recipe.title }}</a>
     </li>
   {% endfor %}
-
+  </ul>
+  
+  <h4>Recommendations:</h4>
+  <ul>
+    {% for recipe in recommended_recipes %}
+    <li>
+      <a href='{% url "recipe" recipe.id%}'>{{ recipe.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  
 {% else %}
   
   <h1>
-    {{"Create your kitchen.     "}} 
+    {{"Create your kitchen."}} 
   </h1>
 
 {% endif %}

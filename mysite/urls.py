@@ -25,7 +25,6 @@ from products.views import products_view
 urlpatterns = [
     path('admin/', admin.site.urls), 
     url('signup/', views.signup, name='signup'),  
-    # url('home/',views.home),
     path('', include('django.contrib.auth.urls')),
     path('',views.home, name='home'),
     path('products/', products_view, name='products'),
