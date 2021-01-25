@@ -89,10 +89,10 @@ def recommender(request):
         top_similar_users_rating = top_similar_users_rating.groupby('recipe_id').sum()[['similarity_index','weighted_rating']]
         top_similar_users_rating.columns = ['sum_similarity_index', 'sum_weigthed_rating']
         recommendation_df = pd.DataFrame()
-        recommendation_df['weighted average recommendation score'] = top_similar_users_rating['sum_weigthed_rating']/ \
+        recommendation_df['recommendation_score'] = top_similar_users_rating['sum_weigthed_rating']/ \
                                                                     top_similar_users_rating['sum_similarity_index']
         recommendation_df['recipe_id'] = top_similar_users_rating.index
-        recommendation_df = recommendation_df.sort_values(by='weighted average recommendation score', 
+        recommendation_df = recommendation_df.sort_values(by='recommendation_score', 
                                                           ascending=False)[:10]
         
         recommended_recipes_id = recommendation_df['recipe_id'].tolist()
