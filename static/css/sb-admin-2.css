@@ -9771,6 +9771,7 @@ a:focus {
 
 #wrapper {
   display: flex;
+  overflow: auto;
 }
 
 #wrapper #content-wrapper {

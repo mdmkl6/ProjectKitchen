@@ -108,11 +108,11 @@ def home(request):
     if request.user.is_anonymous:
         return render(request, 'home.html')
     else:
-        recipes = get_suggested_recipes(request)
+        suggested_recipes = get_suggested_recipes(request)
         recommended_recipes = recommender(request)
         
         context = {
-            "recipes": recipes,
+            "suggested_recipes": suggested_recipes,
             "recommended_recipes": recommended_recipes,
         }
     return render(request, 'home.html', context)

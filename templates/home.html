@@ -9,10 +9,10 @@
 {% if user.is_authenticated %}
   <h1>Hi {{ user.username }}!</h1>
   
-  <p>Here are some suggestions based on your products:</p>
+  <h4>Suggested recipes:</h4>
 
   <ul>
-  {% for recipe in recipes %}
+  {% for recipe in suggested_recipes %}
     <li>
       <a href='{% url "recipe" recipe.id%}'>{{ recipe.title }}</a>
     </li>
