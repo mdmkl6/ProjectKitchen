@@ -29,7 +29,7 @@
 	<div class="card-body">
 	<div class="row no-gutters align-items-center">
 	<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-		<h2>Add product to shopping list</h2>
+		<h2>Add product</h2>
 		<form action="{% url 'add_to_buy' %}" method="POST" role="form">
 			{% csrf_token %}
 			<div class="form-group">
@@ -52,7 +52,8 @@
 	<div class="card-body">
 	<div class="row no-gutters align-items-center">
 	<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-            {% for tobuy in shopping_list %}
+			<h5>Shopping list:</h5>
+			{% for tobuy in shopping_list %}
 				<p>{{ tobuy }} - {{ tobuy.quantity }}</p>	
 			{% endfor %}
 	</div>

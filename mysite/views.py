@@ -32,9 +32,12 @@ def get_suggested_recipes(request):
     ordered_tuples = ProductInRecipe.objects.filter(product__in=kitchen_products).values('recipe').annotate(priority=Count('recipe')).order_by('-priority')
     recipe_pks = [x['recipe'] for x in ordered_tuples]
     preserved_order = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(recipe_pks)])
-    ordered_recipes = Recipe.objects.filter(pk__in=recipe_pks).order_by(preserved_order)
-    return ordered_recipes
-
+    ordered_recipes = Recipe.objects.filter(pk__in=recipe_pks).order_by(preserved_order)[:10]
+    if ordered_recipes:
+        return ordered_recipes
+    else:
+        random_recipes = recommended_recipes = Recipe.objects.order_by('?')[:10]
+        return random_recipes
 
 def pearson_correlation(user_ratings_data, common_ratings):
     common_ratings = common_ratings.sort_values(by='recipe_id')
@@ -97,7 +100,6 @@ def recommender(request):
         
         recommended_recipes_id = recommendation_df['recipe_id'].tolist()
         recommended_recipes = Recipe.objects.filter(id__in=recommended_recipes_id)
-
     else:
         recommended_recipes = Recipe.objects.order_by('?')[:10]
     

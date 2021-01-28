@@ -20,9 +20,10 @@ def add_to_kitchen_or_change_amount(text, amount, user):
   in_products = False
   for product in kitchen_list:
     if(product.product.name == text):
-      Products.objects.filter(pk=product.pk).update(quantity=F('quantity')+amount)
+      Products.objects.filter(pk=product.pk).update(quantity=F('quantity')+amount, finished=False)
       return
-  for product in Product.objects.filter(name__in=[text, text+"s", text+"es"]).all():
+  name_with_other_forms = [text, f"{text}s", f"{text}es", f"{text[:-1]}", f"{text[:-2]}", f"{text[:-1]}ies"]
+  for product in Product.objects.filter(name__in=name_with_other_forms).all():
     new_kitchen = Products(product=product, owner=user, quantity=amount)
     if new_kitchen.quantity == 0:
       new_kitchen.finished = True

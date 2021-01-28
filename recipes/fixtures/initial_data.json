@@ -1275,7 +1275,7 @@
   "model": "recipes.recipe",
   "pk": 159,
   "fields": {
-   "title": "",
+   "title": "Chicken Nuggets",
    "directions": "Heat the butter in a skillet over moderate heat. Toss the chicken breasts in the flour mixture, shaking them so the excess falls off, then cook in butter for about 3 to 4 minutes on each side, until lightly browned. Arrange the chicken in a single layer in a buttered casserole and cover each with a mound of the zucchini mixture. Sprinkle lightly with salt and pepper and cover with slices of cheese. Bake uncovered for about 20 minutes, until the cheese is lightly browned and the chicken is cooked through."
   }
  },

@@ -72,7 +72,7 @@ def clean_product_names(products):
       new_list[i] = plural2
   return new_list
 
-csv_name = "recipes.csv"
+csv_name = "../../recipes.csv"
 data = list_from_csv(csv_name)
 
 titles = data[0]
@@ -115,8 +115,9 @@ recipes_data = [{"model": "recipes.recipe", "pk": i, "fields": {
   "title": titles[i],
   "directions": directions[i]}
   } for i in range(len(titles))]
- 
+
+
 json_data = recipes_data + product_data + product_in_recipe_data
 
-with open("recipes/fixtures/initial_data.json",'w') as f: 
+with open("initial_data.json",'w') as f: 
   json.dump(json_data, f, indent=1) 
