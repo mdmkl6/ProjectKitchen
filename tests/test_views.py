@@ -5,7 +5,7 @@ from django.contrib.auth import login
 from shopping.forms import ToBuyForm
 from recipes.models import Recipe, UserRating
 from products.models import Product
-from kitchen.models import Products
+from kitchen.models import ProductInKitchen
 
 
 class TestViews(TestCase):
@@ -20,7 +20,7 @@ class TestViews(TestCase):
     recipe1=Recipe.objects.create(title="cake",directions="make")
     recipe2=Recipe.objects.create(title="cake2",directions="make")
     product1=Product.objects.create(name="milk")
-    kitchen1=Products.objects.create(product=product1,quantity=1,unit='l',finished=False,owner=user)
+    kitchen1=ProductInKitchen.objects.create(product=product1,quantity=1,unit='l',finished=False,owner=user)
 
     self.home_url=reverse('home')
     self.signup_url=reverse('signup')
@@ -133,19 +133,23 @@ class TestViews(TestCase):
     response = self.client.post(self.kitchen_finished_url)
     self.assertRedirects(response, self.kitchen_url)
 
+
   def test_kitchen_deletefinished_view(self):
     response = self.client.post(self.kitchen_delete_finished_url)
     self.assertRedirects(response, self.kitchen_url)
 
+
   def test_kitchen_deleteALL_view(self):
     response = self.client.post(self.kitchen_delete_all_url)
     self.assertRedirects(response, self.kitchen_url)
+
 
   def test_kitchen_autocomplete_view(self):
     response = self.client.get(self.kitchen_autocomplete_kitchen_url)
     
     self.assertEquals(response.status_code, 200)
     self.assertTemplateUsed(response, 'kitchen.html')
+
 
   def test_kitchen_change_amount_view(self):
     response = self.client.post(self.kitchen_change_amount_url, data={'amount':'2l'})
