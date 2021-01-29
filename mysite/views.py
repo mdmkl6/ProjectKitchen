@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.db.models import Count
 from django.db.models import Case
 from django.db.models import When
-from kitchen.models import Products
+from kitchen.models import ProductInKitchen
 from recipes.models import Recipe, UserRating
 from recipes.models import ProductInRecipe
 import pandas as pd
@@ -28,7 +28,7 @@ def signup(request):
 
 def get_suggested_recipes(request):
     user = request.user
-    kitchen_products = Products.objects.filter(owner=user).values_list('product')
+    kitchen_products = ProductInKitchen.objects.filter(owner=user).values_list('product')
     ordered_tuples = ProductInRecipe.objects.filter(product__in=kitchen_products).values('recipe').annotate(priority=Count('recipe')).order_by('-priority')
     recipe_pks = [x['recipe'] for x in ordered_tuples]
     preserved_order = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(recipe_pks)])
@@ -38,6 +38,7 @@ def get_suggested_recipes(request):
     else:
         random_recipes = recommended_recipes = Recipe.objects.order_by('?')[:10]
         return random_recipes
+
 
 def pearson_correlation(user_ratings_data, common_ratings):
     common_ratings = common_ratings.sort_values(by='recipe_id')

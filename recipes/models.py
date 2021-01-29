@@ -3,7 +3,7 @@ from products.models import Product
 from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator, MaxValueValidator
 
-# Create your models here.
+
 class Recipe(models.Model):
   title = models.TextField()
   directions = models.TextField()
@@ -28,8 +28,7 @@ class UserRating(models.Model):
                             	related_name='ratings')
 	score = models.IntegerField(default=0,
 								validators=[MaxValueValidator(5),
-											MinValueValidator(0),
-											])
+											MinValueValidator(0),])
 	owner = models.ForeignKey(User, on_delete=models.CASCADE,
                            		related_name='ratings')
 

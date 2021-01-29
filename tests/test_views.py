@@ -94,9 +94,7 @@ class TestViews(TestCase):
     self.assertEquals(response.status_code, 200)
     self.assertTemplateUsed(response, 'shopping.html')
 
-
-       
-###############################################################3
+###############################################################
 
   def test_kitchen_view(self):
     response = self.client.get(self.kitchen_url)
