@@ -38,7 +38,7 @@ class TestViews(TestCase):
     self.kitchen_delete_all_url=reverse('deleteall')
     self.kitchen_autocomplete_kitchen_url=reverse('autocomplete_kitchen')
     self.kitchen_change_amount_url=reverse('change_amount',kwargs={'product_id':product1.pk})
-
+    
     self.shopping_url=reverse('shopping')
     self.shopping_addToBuy_url=reverse('add_to_buy')
     self.shopping_done_url=reverse('done')
@@ -73,17 +73,20 @@ class TestViews(TestCase):
     self.assertEquals(response.status_code, 200)
     self.assertTemplateUsed(response, 'recipes.html')
 
+
   def test_single_recipes_view(self):
     response = self.client.get(self.single_recipes_url)
 
     self.assertEquals(response.status_code, 200)
     self.assertTemplateUsed(response, 'recipe.html')
 
+
   def test_recipes_user_rating_bad_view(self):
     response = self.client.get(self.recipes_user_rating_url)
-
+  
     self.assertEquals(response.status_code, 200)
     self.assertJSONEqual(response.content,{'success': 'false'})
+
 
   def test_recipes_user_rating_view(self):
     response = self.client.post(self.recipes_user_rating_url, data={'rating_value':5})

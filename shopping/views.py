@@ -51,6 +51,7 @@ def add_to_buy(request):
         add_non_existing_item(text, amount, user)
   return redirect('shopping')
 
+
 def done(request):
     user = request.user
     shopping_list = ToBuy.objects.filter(owner=user).all()
@@ -58,6 +59,7 @@ def done(request):
       add_to_kitchen_or_change_amount(item.product.name, item.quantity, user)      
     ToBuy.objects.filter(owner=user).all().delete()
     return redirect('shopping')
+
 
 def autocomplete_shopping_list(request):
     user = request.user

@@ -17,25 +17,39 @@ def kitchen_view(request):
   return render(request, 'kitchen.html', context)
 
 
-def add_to_kitchen_or_change_amount(text, amount, user):
+def check_if_present_and_change_amount(text, amount, user):
   kitchen_list = ProductInKitchen.objects.filter(owner=user).order_by('id')
-  in_products = False
   for product in kitchen_list:
     if(product.product.name == text):
       ProductInKitchen.objects.filter(pk=product.pk).update(quantity=F('quantity')+amount, finished=False)
-      return
+      return True
+  return False
+
+
+def check_if_exists_and_add(text, amount, user):
   name_with_other_forms = [text, f"{text}s", f"{text}es", f"{text[:-1]}", f"{text[:-2]}", f"{text[:-1]}ies"]
   for product in Product.objects.filter(name__in=name_with_other_forms).all():
     new_kitchen = ProductInKitchen(product=product, owner=user, quantity=amount)
     if new_kitchen.quantity == 0:
       new_kitchen.finished = True
     new_kitchen.save()
-    in_products = True
-  if not in_products:
-    product = Product(name=text)
-    product.save()
-    new_kitchen = ProductInKitchen(product=product, owner=user, quantity=amount)
-    new_kitchen.save()           
+    return True
+  return False
+
+
+def add_non_existing_item(text, amount, user):
+  product = Product(name=text)
+  product.save()
+  new_kitchen = ProductInKitchen(product=product, owner=user, quantity=amount)
+  new_kitchen.save()    
+
+
+def add_to_kitchen_or_change_amount(text, amount, user):
+  is_present = check_if_present_and_change_amount(text, amount, user)
+  if not is_present:
+    is_in_products = check_if_exists_and_add(text, amount, user)
+    if not is_in_products:
+      add_non_existing_item(text, amount, user)       
 
 
 @require_POST

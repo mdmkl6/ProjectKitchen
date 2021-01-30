@@ -1869,7 +1869,7 @@
   "model": "products.product",
   "pk": 8,
   "fields": {
-   "name": "nuts"
+   "name": "chopped nuts"
   }
  },
  {
@@ -2002,7 +2002,7 @@
   "model": "products.product",
   "pk": 95,
   "fields": {
-   "name": "apples"
+   "name": "diced apples"
   }
  },
  {
@@ -2042,6 +2042,13 @@
  },
  {
   "model": "products.product",
+  "pk": 175,
+  "fields": {
+   "name": "melted butter"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 176,
   "fields": {
    "name": "sour cream"
@@ -2073,6 +2080,13 @@
   "pk": 195,
   "fields": {
    "name": "poppy seeds"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 209,
+  "fields": {
+   "name": "sifted flour"
   }
  },
  {
@@ -2154,6 +2168,13 @@
  },
  {
   "model": "products.product",
+  "pk": 248,
+  "fields": {
+   "name": "boiling water"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 249,
   "fields": {
    "name": "brown sugar"
@@ -2226,28 +2247,28 @@
   "model": "products.product",
   "pk": 288,
   "fields": {
-   "name": "orange peel"
+   "name": "grated orange peel"
   }
  },
  {
   "model": "products.product",
   "pk": 289,
   "fields": {
-   "name": "cake flour"
+   "name": "unsifted cake flour"
   }
  },
  {
   "model": "products.product",
   "pk": 290,
   "fields": {
-   "name": "orange juice"
+   "name": "fresh orange juice"
   }
  },
  {
   "model": "products.product",
   "pk": 304,
   "fields": {
-   "name": "pineapple"
+   "name": "crushed pineapple"
   }
  },
  {
@@ -2261,28 +2282,28 @@
   "model": "products.product",
   "pk": 307,
   "fields": {
-   "name": "almonds"
+   "name": "sliced almonds"
   }
  },
  {
   "model": "products.product",
   "pk": 332,
   "fields": {
-   "name": "carrots"
+   "name": "grated carrots"
   }
  },
  {
   "model": "products.product",
   "pk": 333,
   "fields": {
-   "name": "walnuts"
+   "name": "chopped walnuts"
   }
  },
  {
   "model": "products.product",
   "pk": 345,
   "fields": {
-   "name": "potatoes"
+   "name": "mashed potatoes"
   }
  },
  {
@@ -2290,6 +2311,13 @@
   "pk": 361,
   "fields": {
    "name": "vanilla wafer crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 362,
+  "fields": {
+   "name": "melted margarine"
   }
  },
  {
@@ -2322,9 +2350,16 @@
  },
  {
   "model": "products.product",
+  "pk": 384,
+  "fields": {
+   "name": "cold water"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 389,
   "fields": {
-   "name": "lemon rind"
+   "name": "grated lemon rind"
   }
  },
  {
@@ -2373,7 +2408,14 @@
   "model": "products.product",
   "pk": 437,
   "fields": {
-   "name": "pitted prunes"
+   "name": "chopped pitted prunes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 438,
+  "fields": {
+   "name": "walnuts"
   }
  },
  {
@@ -2395,6 +2437,13 @@
   "pk": 517,
   "fields": {
    "name": "fruit juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 532,
+  "fields": {
+   "name": "cold butter"
   }
  },
  {
@@ -2429,7 +2478,14 @@
   "model": "products.product",
   "pk": 554,
   "fields": {
-   "name": "vanilla wafers"
+   "name": "crushed vanilla wafers"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 556,
+  "fields": {
+   "name": "finely chopped walnuts"
   }
  },
  {
@@ -2465,6 +2521,13 @@
   "pk": 612,
   "fields": {
    "name": "light brown sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 627,
+  "fields": {
+   "name": "crushed walnuts"
   }
  },
  {
@@ -2595,9 +2658,23 @@
  },
  {
   "model": "products.product",
+  "pk": 893,
+  "fields": {
+   "name": "pitted prunes"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 905,
   "fields": {
    "name": "confectioner's sugar"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 918,
+  "fields": {
+   "name": "nuts"
   }
  },
  {
@@ -2625,7 +2702,7 @@
   "model": "products.product",
   "pk": 1007,
   "fields": {
-   "name": "pastry shell"
+   "name": "baked pastry shell"
   }
  },
  {
@@ -2674,6 +2751,13 @@
   "model": "products.product",
   "pk": 1031,
   "fields": {
+   "name": "baked pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1045,
+  "fields": {
    "name": "pie shell"
   }
  },
@@ -2682,6 +2766,13 @@
   "pk": 1046,
   "fields": {
    "name": "tart apples"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1064,
+  "fields": {
+   "name": "large apples"
   }
  },
  {
@@ -2700,6 +2791,13 @@
  },
  {
   "model": "products.product",
+  "pk": 1105,
+  "fields": {
+   "name": "lemon rind"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1109,
   "fields": {
    "name": "graham cracker crust"
@@ -2707,9 +2805,23 @@
  },
  {
   "model": "products.product",
+  "pk": 1145,
+  "fields": {
+   "name": "grated lemon juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1159,
+  "fields": {
+   "name": "sliced"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1178,
   "fields": {
-   "name": "peaches"
+   "name": "fresh peaches"
   }
  },
  {
@@ -2717,6 +2829,13 @@
   "pk": 1184,
   "fields": {
    "name": "almond extract"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1197,
+  "fields": {
+   "name": "peaches"
   }
  },
  {
@@ -2903,9 +3022,30 @@
  },
  {
   "model": "products.product",
+  "pk": 1426,
+  "fields": {
+   "name": "cold orange juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1427,
+  "fields": {
+   "name": "boiling orange juice"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1429,
   "fields": {
    "name": "salad dressing"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1430,
+  "fields": {
+   "name": "carrot pieces"
   }
  },
  {
@@ -3045,7 +3185,7 @@
   "model": "products.product",
   "pk": 1544,
   "fields": {
-   "name": "tomatoes"
+   "name": "peeled tomato"
   }
  },
  {
@@ -3059,7 +3199,7 @@
   "model": "products.product",
   "pk": 1546,
   "fields": {
-   "name": "mushrooms"
+   "name": "fresh mushrooms"
   }
  },
  {
@@ -3080,7 +3220,7 @@
   "model": "products.product",
   "pk": 1558,
   "fields": {
-   "name": "beans"
+   "name": "fresh beans"
   }
  },
  {
@@ -3157,7 +3297,7 @@
   "model": "products.product",
   "pk": 1655,
   "fields": {
-   "name": "bacon bits"
+   "name": "crumbled bacon bits"
   }
  },
  {
@@ -3171,7 +3311,7 @@
   "model": "products.product",
   "pk": 1657,
   "fields": {
-   "name": "salted cashew"
+   "name": "salted cashew pieces."
   }
  },
  {
@@ -3206,7 +3346,7 @@
   "model": "products.product",
   "pk": 1710,
   "fields": {
-   "name": "spinach"
+   "name": "fresh spinach"
   }
  },
  {
@@ -3232,6 +3372,13 @@
  },
  {
   "model": "products.product",
+  "pk": 1730,
+  "fields": {
+   "name": "sliced onions"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1731,
   "fields": {
    "name": "alfalfa sprouts"
@@ -3239,9 +3386,16 @@
  },
  {
   "model": "products.product",
+  "pk": 1732,
+  "fields": {
+   "name": "bacon bits"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1733,
   "fields": {
-   "name": "jack cheese"
+   "name": "grated jack cheese"
   }
  },
  {
@@ -3298,6 +3452,20 @@
   "pk": 1790,
   "fields": {
    "name": "zucchini"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1805,
+  "fields": {
+   "name": "potatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1807,
+  "fields": {
+   "name": "carrots"
   }
  },
  {
@@ -3365,6 +3533,13 @@
  },
  {
   "model": "products.product",
+  "pk": 1847,
+  "fields": {
+   "name": "half"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1850,
   "fields": {
    "name": "thyme"
@@ -3374,7 +3549,7 @@
   "model": "products.product",
   "pk": 1851,
   "fields": {
-   "name": "clams with juice"
+   "name": "chopped clams with juice"
   }
  },
  {
@@ -3386,9 +3561,16 @@
  },
  {
   "model": "products.product",
+  "pk": 1869,
+  "fields": {
+   "name": "fresh oregano"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 1870,
   "fields": {
-   "name": "basil"
+   "name": "fresh basil"
   }
  },
  {
@@ -3431,6 +3613,20 @@
   "pk": 1900,
   "fields": {
    "name": "hamburger"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1905,
+  "fields": {
+   "name": "stewed tomatoes"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 1906,
+  "fields": {
+   "name": "tomatoes"
   }
  },
  {
@@ -3507,7 +3703,7 @@
   "model": "products.product",
   "pk": 1961,
   "fields": {
-   "name": "oregano leaves"
+   "name": "diced oregano leaves"
   }
  },
  {
@@ -3521,7 +3717,7 @@
   "model": "products.product",
   "pk": 1966,
   "fields": {
-   "name": "green chiles"
+   "name": "chopped green chiles"
   }
  },
  {
@@ -3549,7 +3745,7 @@
   "model": "products.product",
   "pk": 1976,
   "fields": {
-   "name": "peanuts"
+   "name": "peanut"
   }
  },
  {
@@ -3596,6 +3792,13 @@
  },
  {
   "model": "products.product",
+  "pk": 2001,
+  "fields": {
+   "name": "mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2003,
   "fields": {
    "name": "green peppers"
@@ -3624,9 +3827,23 @@
  },
  {
   "model": "products.product",
+  "pk": 2035,
+  "fields": {
+   "name": "beaten egg white"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2053,
   "fields": {
    "name": "dry sherry"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2055,
+  "fields": {
+   "name": "orange peel"
   }
  },
  {
@@ -3645,16 +3862,44 @@
  },
  {
   "model": "products.product",
+  "pk": 2058,
+  "fields": {
+   "name": "slivered green onions"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2059,
+  "fields": {
+   "name": "slivered lettuce"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2071,
   "fields": {
-   "name": "ham"
+   "name": "diced ham"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2073,
+  "fields": {
+   "name": "sliced mushrooms"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2074,
+  "fields": {
+   "name": "chopped green onions"
   }
  },
  {
   "model": "products.product",
   "pk": 2075,
   "fields": {
-   "name": "cooked rice"
+   "name": "cold cooked rice"
   }
  },
  {
@@ -3689,7 +3934,7 @@
   "model": "products.product",
   "pk": 2114,
   "fields": {
-   "name": "pork butt"
+   "name": "fresh pork butt"
   }
  },
  {
@@ -3710,7 +3955,7 @@
   "model": "products.product",
   "pk": 2135,
   "fields": {
-   "name": "red pepper"
+   "name": "crushed red pepper"
   }
  },
  {
@@ -3743,9 +3988,16 @@
  },
  {
   "model": "products.product",
+  "pk": 2168,
+  "fields": {
+   "name": "spinach"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2169,
   "fields": {
-   "name": "artichoke hearts"
+   "name": "chopped artichoke hearts"
   }
  },
  {
@@ -3767,6 +4019,13 @@
   "pk": 2191,
   "fields": {
    "name": "unsalted beef boullion"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2195,
+  "fields": {
+   "name": "minced garlic"
   }
  },
  {
@@ -3806,6 +4065,13 @@
  },
  {
   "model": "products.product",
+  "pk": 2227,
+  "fields": {
+   "name": "chopped onion"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2228,
   "fields": {
    "name": "bread crumbs"
@@ -3830,6 +4096,13 @@
   "pk": 2246,
   "fields": {
    "name": "medium-size raw shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2249,
+  "fields": {
+   "name": "minced ginger"
   }
  },
  {
@@ -3871,7 +4144,14 @@
   "model": "products.product",
   "pk": 2268,
   "fields": {
-   "name": "cheese"
+   "name": "grated cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2280,
+  "fields": {
+   "name": "slices bacon for each"
   }
  },
  {
@@ -3885,7 +4165,14 @@
   "model": "products.product",
   "pk": 2285,
   "fields": {
-   "name": "cracker crumbs"
+   "name": "fine cracker crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2303,
+  "fields": {
+   "name": "red pepper"
   }
  },
  {
@@ -3899,14 +4186,35 @@
   "model": "products.product",
   "pk": 2306,
   "fields": {
-   "name": "swiss"
+   "name": "shredded swiss"
   }
  },
  {
   "model": "products.product",
   "pk": 2311,
   "fields": {
-   "name": "parmesan cheese"
+   "name": "grated parmesan cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2318,
+  "fields": {
+   "name": "melted mexican blend cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2320,
+  "fields": {
+   "name": "chopped spinach"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2321,
+  "fields": {
+   "name": "artichoke hearts"
   }
  },
  {
@@ -3914,6 +4222,20 @@
   "pk": 2337,
   "fields": {
    "name": "scallops"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2338,
+  "fields": {
+   "name": "very fine bread crumbs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2341,
+  "fields": {
+   "name": "minced onion"
   }
  },
  {
@@ -3927,7 +4249,7 @@
   "model": "products.product",
   "pk": 2361,
   "fields": {
-   "name": "clams"
+   "name": "chopped clams"
   }
  },
  {
@@ -3935,6 +4257,13 @@
   "pk": 2362,
   "fields": {
    "name": "white wine with clam juice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2363,
+  "fields": {
+   "name": "chopped parsley"
   }
  },
  {
@@ -3949,6 +4278,13 @@
   "pk": 2375,
   "fields": {
    "name": "sole filets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2383,
+  "fields": {
+   "name": "almonds"
   }
  },
  {
@@ -3990,21 +4326,28 @@
   "model": "products.product",
   "pk": 2419,
   "fields": {
-   "name": "romano cheese"
+   "name": "grated romano cheese"
   }
  },
  {
   "model": "products.product",
   "pk": 2422,
   "fields": {
-   "name": "parsely"
+   "name": "fresh parsely"
   }
  },
  {
   "model": "products.product",
   "pk": 2423,
   "fields": {
-   "name": "lemons"
+   "name": "lemon slices"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2436,
+  "fields": {
+   "name": "fresh ginger"
   }
  },
  {
@@ -4019,6 +4362,13 @@
   "pk": 2456,
   "fields": {
    "name": "worchestershire sauce"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2458,
+  "fields": {
+   "name": "lemons"
   }
  },
  {
@@ -4040,6 +4390,13 @@
   "pk": 2489,
   "fields": {
    "name": "beef round steak"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2494,
+  "fields": {
+   "name": "basil"
   }
  },
  {
@@ -4114,9 +4471,30 @@
  },
  {
   "model": "products.product",
+  "pk": 2627,
+  "fields": {
+   "name": "beaten eggs"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2628,
+  "fields": {
+   "name": "butter melted"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2641,
   "fields": {
    "name": "shrimp"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2643,
+  "fields": {
+   "name": "diced celery"
   }
  },
  {
@@ -4159,6 +4537,13 @@
   "pk": 2717,
   "fields": {
    "name": "precooked rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2720,
+  "fields": {
+   "name": "pineapple"
   }
  },
  {
@@ -4249,7 +4634,7 @@
   "model": "products.product",
   "pk": 2816,
   "fields": {
-   "name": "frozen mixed vegetable"
+   "name": "any frozen mixed vegetable"
   }
  },
  {
@@ -4282,6 +4667,13 @@
  },
  {
   "model": "products.product",
+  "pk": 2837,
+  "fields": {
+   "name": "shredded mozzarella cheese"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2856,
   "fields": {
    "name": "chicken boullion"
@@ -4306,6 +4698,13 @@
   "pk": 2914,
   "fields": {
    "name": "chicken cutlets"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2917,
+  "fields": {
+   "name": "apples"
   }
  },
  {
@@ -4338,6 +4737,13 @@
  },
  {
   "model": "products.product",
+  "pk": 2947,
+  "fields": {
+   "name": "boiling onions"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 2950,
   "fields": {
    "name": "dry red wine"
@@ -4348,6 +4754,13 @@
   "pk": 2951,
   "fields": {
    "name": "dijon mustard"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 2953,
+  "fields": {
+   "name": "parsely"
   }
  },
  {
@@ -4387,6 +4800,27 @@
  },
  {
   "model": "products.product",
+  "pk": 2995,
+  "fields": {
+   "name": "chopped peanuts"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3026,
+  "fields": {
+   "name": "freshly ground pepper"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3027,
+  "fields": {
+   "name": "jack cheese"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3040,
   "fields": {
    "name": "broiler chicken"
@@ -4410,7 +4844,7 @@
   "model": "products.product",
   "pk": 3064,
   "fields": {
-   "name": "stuffing mix"
+   "name": "crushed stuffing mix"
   }
  },
  {
@@ -4439,6 +4873,20 @@
   "pk": 3101,
   "fields": {
    "name": "uncle ben's converted rice"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3102,
+  "fields": {
+   "name": "slivered ham"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3105,
+  "fields": {
+   "name": "mashed garlic"
   }
  },
  {
@@ -4474,6 +4922,13 @@
   "pk": 3120,
   "fields": {
    "name": "bouillon"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3126,
+  "fields": {
+   "name": "cooked rice"
   }
  },
  {
@@ -4527,6 +4982,13 @@
  },
  {
   "model": "products.product",
+  "pk": 3178,
+  "fields": {
+   "name": "hot cooked rice"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3192,
   "fields": {
    "name": "sparagus"
@@ -4541,6 +5003,13 @@
  },
  {
   "model": "products.product",
+  "pk": 3211,
+  "fields": {
+   "name": "fresh green beans"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3215,
   "fields": {
    "name": "dried tarragon"
@@ -4550,7 +5019,7 @@
   "model": "products.product",
   "pk": 3235,
   "fields": {
-   "name": "dried bread crumbs"
+   "name": "fine dried bread crumbs"
   }
  },
  {
@@ -4583,6 +5052,13 @@
  },
  {
   "model": "products.product",
+  "pk": 3274,
+  "fields": {
+   "name": "parmesan cheese"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3306,
   "fields": {
    "name": "red potatoes"
@@ -4600,6 +5076,13 @@
   "pk": 3345,
   "fields": {
    "name": "ricotta cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3347,
+  "fields": {
+   "name": "fresh parsley"
   }
  },
  {
@@ -4634,14 +5117,21 @@
   "model": "products.product",
   "pk": 3367,
   "fields": {
-   "name": "orange marmalade"
+   "name": "spoonful of orange marmalade"
   }
  },
  {
   "model": "products.product",
   "pk": 3384,
   "fields": {
-   "name": "dry spaghetti sauce mix"
+   "name": "package of dry spaghetti sauce mix"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3386,
+  "fields": {
+   "name": "shredded lettuce"
   }
  },
  {
@@ -4669,7 +5159,7 @@
   "model": "products.product",
   "pk": 3426,
   "fields": {
-   "name": "toast"
+   "name": "toast slices"
   }
  },
  {
@@ -4702,9 +5192,23 @@
  },
  {
   "model": "products.product",
+  "pk": 3499,
+  "fields": {
+   "name": "frozen chopped spinach"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3501,
   "fields": {
    "name": "feta cheese"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3503,
+  "fields": {
+   "name": "fresh dill"
   }
  },
  {
@@ -4765,6 +5269,13 @@
  },
  {
   "model": "products.product",
+  "pk": 3577,
+  "fields": {
+   "name": "cracker crumbs"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3592,
   "fields": {
    "name": "red cabbage"
@@ -4800,6 +5311,13 @@
  },
  {
   "model": "products.product",
+  "pk": 3637,
+  "fields": {
+   "name": "grated swiss cheese"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3648,
   "fields": {
    "name": "frozen hashbrown potatoes"
@@ -4831,6 +5349,13 @@
   "pk": 3730,
   "fields": {
    "name": "pecans"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3747,
+  "fields": {
+   "name": "vanilla wafers"
   }
  },
  {
@@ -4872,7 +5397,7 @@
   "model": "products.product",
   "pk": 3827,
   "fields": {
-   "name": "aparagus spears"
+   "name": "fresh aparagus spears"
   }
  },
  {
@@ -4905,6 +5430,20 @@
  },
  {
   "model": "products.product",
+  "pk": 3857,
+  "fields": {
+   "name": "ten inch baked pie shell"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3867,
+  "fields": {
+   "name": "cheese"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 3877,
   "fields": {
    "name": "frozen broccoli"
@@ -4915,6 +5454,13 @@
   "pk": 3881,
   "fields": {
    "name": "cheeze whiz"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3895,
+  "fields": {
+   "name": "fresh broccoli"
   }
  },
  {
@@ -4963,7 +5509,14 @@
   "model": "products.product",
   "pk": 3948,
   "fields": {
-   "name": "olives"
+   "name": "sliced olives"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 3958,
+  "fields": {
+   "name": "diced green chiles"
   }
  },
  {
@@ -5066,6 +5619,13 @@
  },
  {
   "model": "products.product",
+  "pk": 4087,
+  "fields": {
+   "name": "fresh"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 4089,
   "fields": {
    "name": "french fried onions"
@@ -5157,6 +5717,20 @@
  },
  {
   "model": "products.product",
+  "pk": 4161,
+  "fields": {
+   "name": "chicken pieces"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 4183,
+  "fields": {
+   "name": "shredded cheese"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 4186,
   "fields": {
    "name": "enchilada sauce"
@@ -5167,6 +5741,13 @@
   "pk": 4202,
   "fields": {
    "name": "clove garlic"
+  }
+ },
+ {
+  "model": "products.product",
+  "pk": 4219,
+  "fields": {
+   "name": "fresh ripe tomato"
   }
  },
  {
@@ -5241,6 +5822,13 @@
  },
  {
   "model": "products.product",
+  "pk": 4285,
+  "fields": {
+   "name": "fresh parmesan"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 4286,
   "fields": {
    "name": "tomato paste"
@@ -5248,9 +5836,16 @@
  },
  {
   "model": "products.product",
+  "pk": 4292,
+  "fields": {
+   "name": "grated nutmeg"
+  }
+ },
+ {
+  "model": "products.product",
   "pk": 4317,
   "fields": {
-   "name": "cooked ham"
+   "name": "cooked slivered ham"
   }
  },
  {
@@ -6067,7 +6662,7 @@
   "model": "recipes.productinrecipe",
   "pk": 175,
   "fields": {
-   "product": 24,
+   "product": 175,
    "recipe": 9,
    "quantity": "1/3",
    "unit": "cup"
@@ -6267,7 +6862,7 @@
   "model": "recipes.productinrecipe",
   "pk": 209,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 11,
    "quantity": "4",
    "unit": "cups"
@@ -6437,7 +7032,7 @@
   "model": "recipes.productinrecipe",
   "pk": 232,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 12,
    "quantity": "2 1/2",
    "unit": "cups"
@@ -6517,7 +7112,7 @@
   "model": "recipes.productinrecipe",
   "pk": 248,
   "fields": {
-   "product": 63,
+   "product": 248,
    "recipe": 13,
    "quantity": "1 1/4",
    "unit": "cups"
@@ -7147,7 +7742,7 @@
   "model": "recipes.productinrecipe",
   "pk": 362,
   "fields": {
-   "product": 38,
+   "product": 362,
    "recipe": 19,
    "quantity": "1/4",
    "unit": "cups"
@@ -7267,7 +7862,7 @@
   "model": "recipes.productinrecipe",
   "pk": 384,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 20,
    "quantity": "1/2",
    "unit": "cup"
@@ -7597,7 +8192,7 @@
   "model": "recipes.productinrecipe",
   "pk": 438,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 23,
    "quantity": "1",
    "unit": "cup"
@@ -8057,7 +8652,7 @@
   "model": "recipes.productinrecipe",
   "pk": 519,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 27,
    "quantity": "1",
    "unit": "cup"
@@ -8087,7 +8682,7 @@
   "model": "recipes.productinrecipe",
   "pk": 532,
   "fields": {
-   "product": 24,
+   "product": 532,
    "recipe": 28,
    "quantity": "1/2",
    "unit": "cup"
@@ -8177,7 +8772,7 @@
   "model": "recipes.productinrecipe",
   "pk": 541,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 28,
    "quantity": "1/2",
    "unit": "cups"
@@ -8237,7 +8832,7 @@
   "model": "recipes.productinrecipe",
   "pk": 556,
   "fields": {
-   "product": 333,
+   "product": 556,
    "recipe": 29,
    "quantity": "1",
    "unit": "cup"
@@ -8447,7 +9042,7 @@
   "model": "recipes.productinrecipe",
   "pk": 609,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 32,
    "quantity": "1",
    "unit": "cup"
@@ -8567,7 +9162,7 @@
   "model": "recipes.productinrecipe",
   "pk": 627,
   "fields": {
-   "product": 333,
+   "product": 627,
    "recipe": 33,
    "quantity": "8",
    "unit": "ounces"
@@ -8687,7 +9282,7 @@
   "model": "recipes.productinrecipe",
   "pk": 653,
   "fields": {
-   "product": 333,
+   "product": 556,
    "recipe": 34,
    "quantity": "1",
    "unit": "cup"
@@ -8777,7 +9372,7 @@
   "model": "recipes.productinrecipe",
   "pk": 684,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 36,
    "quantity": "1 1/2",
    "unit": "cups"
@@ -9167,7 +9762,7 @@
   "model": "recipes.productinrecipe",
   "pk": 753,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 39,
    "quantity": "3",
    "unit": "tbsp"
@@ -9527,7 +10122,7 @@
   "model": "recipes.productinrecipe",
   "pk": 828,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 43,
    "quantity": "1",
    "unit": "cup"
@@ -9577,7 +10172,7 @@
   "model": "recipes.productinrecipe",
   "pk": 840,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 44,
    "quantity": "3/4",
    "unit": "cup"
@@ -9617,7 +10212,7 @@
   "model": "recipes.productinrecipe",
   "pk": 844,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 44,
    "quantity": "1/2",
    "unit": "cup "
@@ -9667,7 +10262,7 @@
   "model": "recipes.productinrecipe",
   "pk": 850,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 44,
    "quantity": "1/2",
    "unit": "cup"
@@ -9807,7 +10402,7 @@
   "model": "recipes.productinrecipe",
   "pk": 877,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 46,
    "quantity": "1/2",
    "unit": "cup"
@@ -9837,7 +10432,7 @@
   "model": "recipes.productinrecipe",
   "pk": 880,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 46,
    "quantity": "1/2",
    "unit": "cup"
@@ -9847,7 +10442,7 @@
   "model": "recipes.productinrecipe",
   "pk": 893,
   "fields": {
-   "product": 437,
+   "product": 893,
    "recipe": 47,
    "quantity": "1 1/2",
    "unit": "cups"
@@ -9877,7 +10472,7 @@
   "model": "recipes.productinrecipe",
   "pk": 896,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 47,
    "quantity": "1 1/3",
    "unit": "cups"
@@ -9947,7 +10542,7 @@
   "model": "recipes.productinrecipe",
   "pk": 903,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 47,
    "quantity": "1",
    "unit": "cup"
@@ -10037,7 +10632,7 @@
   "model": "recipes.productinrecipe",
   "pk": 918,
   "fields": {
-   "product": 8,
+   "product": 918,
    "recipe": 48,
    "quantity": "1",
    "unit": "cup"
@@ -10267,7 +10862,7 @@
   "model": "recipes.productinrecipe",
   "pk": 954,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 50,
    "quantity": "3",
    "unit": "cups"
@@ -10437,7 +11032,7 @@
   "model": "recipes.productinrecipe",
   "pk": 993,
   "fields": {
-   "product": 8,
+   "product": 918,
    "recipe": 52,
    "quantity": "1",
    "unit": "cups"
@@ -10617,7 +11212,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1045,
   "fields": {
-   "product": 1031,
+   "product": 1045,
    "recipe": 55,
    "quantity": "1",
    "unit": "9 inch"
@@ -10687,7 +11282,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1064,
   "fields": {
-   "product": 95,
+   "product": 1064,
    "recipe": 56,
    "quantity": "4",
    "unit": ""
@@ -10817,7 +11412,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1090,
   "fields": {
-   "product": 1031,
+   "product": 1045,
    "recipe": 57,
    "quantity": "1",
    "unit": ""
@@ -10857,7 +11452,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1105,
   "fields": {
-   "product": 389,
+   "product": 1105,
    "recipe": 58,
    "quantity": "1",
    "unit": "tsp"
@@ -10937,7 +11532,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1124,
   "fields": {
-   "product": 389,
+   "product": 1105,
    "recipe": 59,
    "quantity": "1",
    "unit": "Tbsp"
@@ -10987,7 +11582,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1129,
   "fields": {
-   "product": 1031,
+   "product": 1045,
    "recipe": 59,
    "quantity": "1",
    "unit": "8\""
@@ -11047,7 +11642,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1145,
   "fields": {
-   "product": 22,
+   "product": 1145,
    "recipe": 60,
    "quantity": "1",
    "unit": "tsp"
@@ -11091,6 +11686,16 @@
    "recipe": 60,
    "quantity": "1/4",
    "unit": "cup"
+  }
+ },
+ {
+  "model": "recipes.productinrecipe",
+  "pk": 1159,
+  "fields": {
+   "product": 1159,
+   "recipe": 61,
+   "quantity": "5",
+   "unit": "apples"
   }
  },
  {
@@ -11207,7 +11812,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1185,
   "fields": {
-   "product": 1031,
+   "product": 1045,
    "recipe": 62,
    "quantity": "1",
    "unit": "9 inch"
@@ -11217,7 +11822,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1197,
   "fields": {
-   "product": 1178,
+   "product": 1197,
    "recipe": 63,
    "quantity": "1",
    "unit": "3 ounce box"
@@ -11237,7 +11842,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1199,
   "fields": {
-   "product": 1178,
+   "product": 1197,
    "recipe": 63,
    "quantity": "1",
    "unit": "pint"
@@ -11397,7 +12002,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1240,
   "fields": {
-   "product": 1031,
+   "product": 1045,
    "recipe": 65,
    "quantity": "1",
    "unit": ""
@@ -11417,7 +12022,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1254,
   "fields": {
-   "product": 6,
+   "product": 209,
    "recipe": 66,
    "quantity": "2",
    "unit": "cups"
@@ -11627,7 +12232,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1313,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 69,
    "quantity": "1",
    "unit": "cup"
@@ -11727,7 +12332,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1336,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 70,
    "quantity": "1/4",
    "unit": "cup"
@@ -12057,7 +12662,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1426,
   "fields": {
-   "product": 290,
+   "product": 1426,
    "recipe": 75,
    "quantity": "1 1/2",
    "unit": "cups"
@@ -12067,7 +12672,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1427,
   "fields": {
-   "product": 290,
+   "product": 1427,
    "recipe": 75,
    "quantity": "1/2",
    "unit": "cup"
@@ -12097,7 +12702,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1430,
   "fields": {
-   "product": 332,
+   "product": 1430,
    "recipe": 75,
    "quantity": "1 1/2",
    "unit": "cups"
@@ -12237,7 +12842,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1467,
   "fields": {
-   "product": 8,
+   "product": 918,
    "recipe": 77,
    "quantity": "1/2",
    "unit": "cup"
@@ -12607,7 +13212,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1564,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 82,
    "quantity": "",
    "unit": ""
@@ -12657,7 +13262,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1581,
   "fields": {
-   "product": 333,
+   "product": 438,
    "recipe": 83,
    "quantity": "1",
    "unit": "cup"
@@ -13287,7 +13892,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1730,
   "fields": {
-   "product": 1692,
+   "product": 1730,
    "recipe": 91,
    "quantity": "",
    "unit": ""
@@ -13307,7 +13912,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1732,
   "fields": {
-   "product": 1655,
+   "product": 1732,
    "recipe": 91,
    "quantity": "",
    "unit": ""
@@ -13597,7 +14202,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1805,
   "fields": {
-   "product": 345,
+   "product": 1805,
    "recipe": 95,
    "quantity": "1",
    "unit": "large"
@@ -13617,7 +14222,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1807,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 95,
    "quantity": "1",
    "unit": "medium"
@@ -13707,7 +14312,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1825,
   "fields": {
-   "product": 345,
+   "product": 1805,
    "recipe": 96,
    "quantity": "1",
    "unit": "large"
@@ -13717,7 +14322,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1826,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 96,
    "quantity": "3",
    "unit": "large"
@@ -13817,10 +14422,20 @@
   "model": "recipes.productinrecipe",
   "pk": 1846,
   "fields": {
-   "product": 345,
+   "product": 1805,
    "recipe": 97,
    "quantity": "2",
    "unit": "cups"
+  }
+ },
+ {
+  "model": "recipes.productinrecipe",
+  "pk": 1847,
+  "fields": {
+   "product": 1847,
+   "recipe": 97,
+   "quantity": "1",
+   "unit": "pint"
   }
  },
  {
@@ -13937,7 +14552,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1869,
   "fields": {
-   "product": 1638,
+   "product": 1869,
    "recipe": 98,
    "quantity": "1/2",
    "unit": "tsp"
@@ -14037,7 +14652,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1901,
   "fields": {
-   "product": 345,
+   "product": 1805,
    "recipe": 100,
    "quantity": "2",
    "unit": "large"
@@ -14047,7 +14662,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1902,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 100,
    "quantity": "4",
    "unit": "large"
@@ -14077,7 +14692,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1905,
   "fields": {
-   "product": 1544,
+   "product": 1905,
    "recipe": 100,
    "quantity": "1",
    "unit": "large can"
@@ -14087,7 +14702,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1906,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 100,
    "quantity": "1",
    "unit": "small can"
@@ -14207,7 +14822,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1928,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 101,
    "quantity": "2",
    "unit": "cups"
@@ -14217,7 +14832,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1929,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 101,
    "quantity": "1",
    "unit": "cup"
@@ -14317,7 +14932,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1939,
   "fields": {
-   "product": 345,
+   "product": 1805,
    "recipe": 102,
    "quantity": "4",
    "unit": ""
@@ -14337,7 +14952,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1941,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 102,
    "quantity": "6",
    "unit": ""
@@ -14397,7 +15012,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1947,
   "fields": {
-   "product": 1544,
+   "product": 1905,
    "recipe": 102,
    "quantity": "1",
    "unit": "large can"
@@ -14517,7 +15132,7 @@
   "model": "recipes.productinrecipe",
   "pk": 1965,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 103,
    "quantity": "1/2",
    "unit": "cup"
@@ -14717,7 +15332,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2001,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 105,
    "quantity": "1",
    "unit": "cup"
@@ -14757,7 +15372,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2015,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 106,
    "quantity": "2",
    "unit": ""
@@ -14897,7 +15512,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2035,
   "fields": {
-   "product": 692,
+   "product": 2035,
    "recipe": 107,
    "quantity": "",
    "unit": ""
@@ -14967,7 +15582,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2055,
   "fields": {
-   "product": 288,
+   "product": 2055,
    "recipe": 108,
    "quantity": "1",
    "unit": ""
@@ -14997,7 +15612,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2058,
   "fields": {
-   "product": 1542,
+   "product": 2058,
    "recipe": 108,
    "quantity": "4 to 6",
    "unit": ""
@@ -15007,7 +15622,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2059,
   "fields": {
-   "product": 1969,
+   "product": 2059,
    "recipe": 108,
    "quantity": "1/2",
    "unit": "head"
@@ -15037,7 +15652,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2073,
   "fields": {
-   "product": 1546,
+   "product": 2073,
    "recipe": 109,
    "quantity": "3",
    "unit": "ounces"
@@ -15047,7 +15662,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2074,
   "fields": {
-   "product": 1542,
+   "product": 2074,
    "recipe": 109,
    "quantity": "1/2",
    "unit": "cup"
@@ -15197,7 +15812,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2100,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 110,
    "quantity": "8",
    "unit": ""
@@ -15487,7 +16102,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2168,
   "fields": {
-   "product": 1710,
+   "product": 2168,
    "recipe": 114,
    "quantity": "1",
    "unit": "pkg"
@@ -15627,7 +16242,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2195,
   "fields": {
-   "product": 1642,
+   "product": 2195,
    "recipe": 115,
    "quantity": "1",
    "unit": "clove"
@@ -15727,7 +16342,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2227,
   "fields": {
-   "product": 1692,
+   "product": 2227,
    "recipe": 117,
    "quantity": "1",
    "unit": "tbsp"
@@ -15907,7 +16522,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2248,
   "fields": {
-   "product": 1642,
+   "product": 2195,
    "recipe": 118,
    "quantity": "1",
    "unit": "clove"
@@ -15917,7 +16532,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2249,
   "fields": {
-   "product": 235,
+   "product": 2249,
    "recipe": 118,
    "quantity": "1/2",
    "unit": "tsp"
@@ -15957,7 +16572,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2253,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 118,
    "quantity": "2",
    "unit": ""
@@ -16057,7 +16672,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2269,
   "fields": {
-   "product": 1542,
+   "product": 2074,
    "recipe": 119,
    "quantity": "4",
    "unit": ""
@@ -16067,7 +16682,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2270,
   "fields": {
-   "product": 1546,
+   "product": 2073,
    "recipe": 119,
    "quantity": "8",
    "unit": ""
@@ -16087,7 +16702,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2280,
   "fields": {
-   "product": 1406,
+   "product": 2280,
    "recipe": 120,
    "quantity": "2",
    "unit": ""
@@ -16197,7 +16812,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2303,
   "fields": {
-   "product": 2135,
+   "product": 2303,
    "recipe": 121,
    "quantity": "",
    "unit": "dash"
@@ -16237,7 +16852,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2307,
   "fields": {
-   "product": 1710,
+   "product": 2168,
    "recipe": 121,
    "quantity": "1",
    "unit": "pkg"
@@ -16297,7 +16912,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2318,
   "fields": {
-   "product": 2166,
+   "product": 2318,
    "recipe": 122,
    "quantity": "1",
    "unit": "pkg"
@@ -16317,7 +16932,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2320,
   "fields": {
-   "product": 1710,
+   "product": 2320,
    "recipe": 122,
    "quantity": "1",
    "unit": "pkg"
@@ -16327,7 +16942,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2321,
   "fields": {
-   "product": 2169,
+   "product": 2321,
    "recipe": 122,
    "quantity": "1",
    "unit": "can"
@@ -16347,7 +16962,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2338,
   "fields": {
-   "product": 2228,
+   "product": 2338,
    "recipe": 123,
    "quantity": "1",
    "unit": "cup"
@@ -16377,7 +16992,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2341,
   "fields": {
-   "product": 1692,
+   "product": 2341,
    "recipe": 123,
    "quantity": "1",
    "unit": "tbsp"
@@ -16437,7 +17052,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2358,
   "fields": {
-   "product": 1642,
+   "product": 2195,
    "recipe": 124,
    "quantity": "1 to 2",
    "unit": "cloves"
@@ -16487,7 +17102,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2363,
   "fields": {
-   "product": 1637,
+   "product": 2363,
    "recipe": 124,
    "quantity": "1/4",
    "unit": "cup"
@@ -16607,7 +17222,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2383,
   "fields": {
-   "product": 307,
+   "product": 2383,
    "recipe": 125,
    "quantity": "1",
    "unit": "tbsp"
@@ -16837,7 +17452,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2436,
   "fields": {
-   "product": 235,
+   "product": 2436,
    "recipe": 128,
    "quantity": "1",
    "unit": "tsp"
@@ -16977,7 +17592,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2458,
   "fields": {
-   "product": 2423,
+   "product": 2458,
    "recipe": 129,
    "quantity": "1",
    "unit": ""
@@ -17067,7 +17682,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2474,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 130,
    "quantity": "1",
    "unit": "tbsp"
@@ -17117,7 +17732,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2490,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 131,
    "quantity": "5",
    "unit": ""
@@ -17157,7 +17772,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2494,
   "fields": {
-   "product": 1870,
+   "product": 2494,
    "recipe": 131,
    "quantity": "1",
    "unit": "tsp"
@@ -17207,7 +17822,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2511,
   "fields": {
-   "product": 1546,
+   "product": 2073,
    "recipe": 132,
    "quantity": "1",
    "unit": "can"
@@ -17247,7 +17862,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2527,
   "fields": {
-   "product": 1692,
+   "product": 1730,
    "recipe": 133,
    "quantity": "2",
    "unit": ""
@@ -17367,7 +17982,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2549,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 134,
    "quantity": "32",
    "unit": "ounces"
@@ -17617,7 +18232,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2592,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 136,
    "quantity": "1/2",
    "unit": "pound"
@@ -17857,7 +18472,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2627,
   "fields": {
-   "product": 21,
+   "product": 2627,
    "recipe": 138,
    "quantity": "6",
    "unit": ""
@@ -17867,7 +18482,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2628,
   "fields": {
-   "product": 24,
+   "product": 2628,
    "recipe": 138,
    "quantity": "3",
    "unit": "tbsp"
@@ -17947,7 +18562,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2643,
   "fields": {
-   "product": 1827,
+   "product": 2643,
    "recipe": 139,
    "quantity": "2",
    "unit": "cups"
@@ -18327,7 +18942,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2720,
   "fields": {
-   "product": 304,
+   "product": 2720,
    "recipe": 143,
    "quantity": "",
    "unit": ""
@@ -18387,7 +19002,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2740,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 144,
    "quantity": "1",
    "unit": "tbsp"
@@ -18457,7 +19072,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2747,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 144,
    "quantity": "1",
    "unit": ""
@@ -18517,7 +19132,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2753,
   "fields": {
-   "product": 2423,
+   "product": 2458,
    "recipe": 144,
    "quantity": "1",
    "unit": "large"
@@ -18567,7 +19182,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2758,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 145,
    "quantity": "1",
    "unit": "cup"
@@ -18737,7 +19352,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2786,
   "fields": {
-   "product": 2135,
+   "product": 2303,
    "recipe": 146,
    "quantity": "1/4",
    "unit": "cup"
@@ -18967,7 +19582,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2837,
   "fields": {
-   "product": 1388,
+   "product": 2837,
    "recipe": 149,
    "quantity": "2",
    "unit": "ounces"
@@ -18997,7 +19612,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2852,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 150,
    "quantity": "1",
    "unit": "cup"
@@ -19157,7 +19772,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2874,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 151,
    "quantity": "6",
    "unit": ""
@@ -19177,7 +19792,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2876,
   "fields": {
-   "product": 2135,
+   "product": 2303,
    "recipe": 151,
    "quantity": "1",
    "unit": "large"
@@ -19257,7 +19872,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2893,
   "fields": {
-   "product": 1870,
+   "product": 2494,
    "recipe": 152,
    "quantity": "1",
    "unit": "tsp"
@@ -19357,7 +19972,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2903,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 152,
    "quantity": "",
    "unit": ""
@@ -19467,7 +20082,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2917,
   "fields": {
-   "product": 95,
+   "product": 2917,
    "recipe": 153,
    "quantity": "2",
    "unit": ""
@@ -19507,7 +20122,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2921,
   "fields": {
-   "product": 2423,
+   "product": 2458,
    "recipe": 153,
    "quantity": "2",
    "unit": ""
@@ -19567,7 +20182,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2931,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 154,
    "quantity": "",
    "unit": ""
@@ -19627,7 +20242,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2947,
   "fields": {
-   "product": 1692,
+   "product": 2947,
    "recipe": 155,
    "quantity": "8",
    "unit": "small"
@@ -19637,7 +20252,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2948,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 155,
    "quantity": "1/2",
    "unit": "pound"
@@ -19687,7 +20302,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2953,
   "fields": {
-   "product": 2422,
+   "product": 2953,
    "recipe": 155,
    "quantity": "2",
    "unit": "tbsp"
@@ -19867,7 +20482,7 @@
   "model": "recipes.productinrecipe",
   "pk": 2995,
   "fields": {
-   "product": 1976,
+   "product": 2995,
    "recipe": 157,
    "quantity": "1/4",
    "unit": "cup"
@@ -19937,7 +20552,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3026,
   "fields": {
-   "product": 1872,
+   "product": 3026,
    "recipe": 159,
    "quantity": "",
    "unit": ""
@@ -19947,7 +20562,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3027,
   "fields": {
-   "product": 1733,
+   "product": 3027,
    "recipe": 159,
    "quantity": "1/4",
    "unit": "pound"
@@ -20237,7 +20852,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3100,
   "fields": {
-   "product": 1546,
+   "product": 2073,
    "recipe": 163,
    "quantity": "1",
    "unit": "cup"
@@ -20257,7 +20872,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3102,
   "fields": {
-   "product": 2071,
+   "product": 3102,
    "recipe": 163,
    "quantity": "1/2",
    "unit": "cup"
@@ -20277,7 +20892,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3104,
   "fields": {
-   "product": 1692,
+   "product": 1730,
    "recipe": 163,
    "quantity": "1",
    "unit": "large"
@@ -20287,7 +20902,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3105,
   "fields": {
-   "product": 1642,
+   "product": 3105,
    "recipe": 163,
    "quantity": "1",
    "unit": "clove"
@@ -20347,7 +20962,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3117,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 164,
    "quantity": "1",
    "unit": "cup"
@@ -20437,7 +21052,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3126,
   "fields": {
-   "product": 2075,
+   "product": 3126,
    "recipe": 164,
    "quantity": "1",
    "unit": "cup"
@@ -20547,7 +21162,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3145,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 165,
    "quantity": "1/4",
    "unit": "pound"
@@ -20587,7 +21202,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3157,
   "fields": {
-   "product": 24,
+   "product": 175,
    "recipe": 166,
    "quantity": "2",
    "unit": "tbsp"
@@ -20677,7 +21292,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3178,
   "fields": {
-   "product": 2198,
+   "product": 3178,
    "recipe": 167,
    "quantity": "4",
    "unit": "servings"
@@ -20717,7 +21332,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3195,
   "fields": {
-   "product": 235,
+   "product": 2436,
    "recipe": 168,
    "quantity": "1",
    "unit": "tsp"
@@ -20757,7 +21372,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3211,
   "fields": {
-   "product": 1501,
+   "product": 3211,
    "recipe": 169,
    "quantity": "1",
    "unit": "pound"
@@ -20827,7 +21442,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3230,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 170,
    "quantity": "1",
    "unit": "pound"
@@ -21017,7 +21632,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3268,
   "fields": {
-   "product": 1710,
+   "product": 2168,
    "recipe": 172,
    "quantity": "1",
    "unit": "can"
@@ -21077,7 +21692,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3274,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 172,
    "quantity": "1/4",
    "unit": "cup"
@@ -21217,7 +21832,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3325,
   "fields": {
-   "product": 345,
+   "product": 1805,
    "recipe": 175,
    "quantity": "6",
    "unit": "medium"
@@ -21327,7 +21942,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3347,
   "fields": {
-   "product": 1637,
+   "product": 3347,
    "recipe": 176,
    "quantity": "2",
    "unit": "tbsps"
@@ -21387,7 +22002,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3363,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 177,
    "quantity": "",
    "unit": ""
@@ -21477,7 +22092,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3386,
   "fields": {
-   "product": 1969,
+   "product": 3386,
    "recipe": 178,
    "quantity": "2",
    "unit": "cups"
@@ -21537,7 +22152,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3405,
   "fields": {
-   "product": 1546,
+   "product": 2001,
    "recipe": 179,
    "quantity": "",
    "unit": ""
@@ -21577,7 +22192,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3409,
   "fields": {
-   "product": 2422,
+   "product": 2953,
    "recipe": 179,
    "quantity": "",
    "unit": ""
@@ -21827,7 +22442,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3480,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 183,
    "quantity": "",
    "unit": ""
@@ -21867,7 +22482,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3499,
   "fields": {
-   "product": 1944,
+   "product": 3499,
    "recipe": 184,
    "quantity": "30",
    "unit": "ounces"
@@ -21907,7 +22522,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3503,
   "fields": {
-   "product": 1814,
+   "product": 3503,
    "recipe": 184,
    "quantity": "2",
    "unit": "tbsps"
@@ -22007,7 +22622,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3521,
   "fields": {
-   "product": 1710,
+   "product": 2168,
    "recipe": 185,
    "quantity": "1",
    "unit": "cup"
@@ -22237,7 +22852,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3565,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 187,
    "quantity": "",
    "unit": ""
@@ -22247,7 +22862,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3566,
   "fields": {
-   "product": 24,
+   "product": 175,
    "recipe": 187,
    "quantity": "",
    "unit": ""
@@ -22307,7 +22922,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3577,
   "fields": {
-   "product": 2285,
+   "product": 3577,
    "recipe": 188,
    "quantity": "",
    "unit": ""
@@ -22327,7 +22942,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3579,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 188,
    "quantity": "1/2",
    "unit": "cup"
@@ -22347,7 +22962,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3581,
   "fields": {
-   "product": 1655,
+   "product": 1732,
    "recipe": 188,
    "quantity": "",
    "unit": ""
@@ -22537,7 +23152,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3631,
   "fields": {
-   "product": 1944,
+   "product": 3499,
    "recipe": 191,
    "quantity": "2",
    "unit": "10 ounce package"
@@ -22577,7 +23192,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3637,
   "fields": {
-   "product": 3177,
+   "product": 3637,
    "recipe": 191,
    "quantity": "1/3",
    "unit": "cup"
@@ -22667,7 +23282,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3656,
   "fields": {
-   "product": 24,
+   "product": 175,
    "recipe": 192,
    "quantity": "1/4",
    "unit": "cup"
@@ -22707,7 +23322,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3669,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 193,
    "quantity": "1",
    "unit": "tablesoon"
@@ -22837,7 +23452,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3691,
   "fields": {
-   "product": 95,
+   "product": 2917,
    "recipe": 194,
    "quantity": "6",
    "unit": ""
@@ -23067,7 +23682,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3743,
   "fields": {
-   "product": 1178,
+   "product": 1197,
    "recipe": 197,
    "quantity": "4",
    "unit": "cups"
@@ -23087,7 +23702,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3745,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 197,
    "quantity": "1/4",
    "unit": "cup"
@@ -23107,7 +23722,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3747,
   "fields": {
-   "product": 554,
+   "product": 3747,
    "recipe": 197,
    "quantity": "2",
    "unit": "cups"
@@ -23347,7 +23962,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3806,
   "fields": {
-   "product": 2169,
+   "product": 2321,
    "recipe": 200,
    "quantity": "14",
    "unit": "ounce can"
@@ -23455,9 +24070,19 @@
  },
  {
   "model": "recipes.productinrecipe",
+  "pk": 3825,
+  "fields": {
+   "product": 1847,
+   "recipe": 201,
+   "quantity": "1 1/2",
+   "unit": "cups"
+  }
+ },
+ {
+  "model": "recipes.productinrecipe",
   "pk": 3826,
   "fields": {
-   "product": 3177,
+   "product": 3637,
    "recipe": 201,
    "quantity": "2",
    "unit": "cups"
@@ -23477,7 +24102,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3828,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 201,
    "quantity": "1",
    "unit": "medium"
@@ -23637,7 +24262,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3853,
   "fields": {
-   "product": 63,
+   "product": 248,
    "recipe": 202,
    "quantity": "1",
    "unit": "cup"
@@ -23677,7 +24302,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3857,
   "fields": {
-   "product": 3819,
+   "product": 3857,
    "recipe": 203,
    "quantity": "1",
    "unit": ""
@@ -23737,7 +24362,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3863,
   "fields": {
-   "product": 1710,
+   "product": 2168,
    "recipe": 203,
    "quantity": "1",
    "unit": "can"
@@ -23777,7 +24402,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3867,
   "fields": {
-   "product": 2268,
+   "product": 3867,
    "recipe": 203,
    "quantity": "1/2",
    "unit": "cup"
@@ -23857,7 +24482,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3895,
   "fields": {
-   "product": 1368,
+   "product": 3895,
    "recipe": 205,
    "quantity": "1 1/2",
    "unit": "pounds"
@@ -23897,7 +24522,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3899,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 205,
    "quantity": "1/3",
    "unit": "cup"
@@ -24127,7 +24752,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3942,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 207,
    "quantity": "1",
    "unit": "large can"
@@ -24247,7 +24872,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3957,
   "fields": {
-   "product": 1733,
+   "product": 3027,
    "recipe": 208,
    "quantity": "4",
    "unit": "cups"
@@ -24257,7 +24882,7 @@
   "model": "recipes.productinrecipe",
   "pk": 3958,
   "fields": {
-   "product": 1966,
+   "product": 3958,
    "recipe": 208,
    "quantity": "2",
    "unit": "4 oz cans"
@@ -24487,7 +25112,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4030,
   "fields": {
-   "product": 1692,
+   "product": 2227,
    "recipe": 212,
    "quantity": "1/2",
    "unit": "cup"
@@ -24497,7 +25122,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4031,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 212,
    "quantity": "1",
    "unit": "16 oz can"
@@ -24567,7 +25192,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4050,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 213,
    "quantity": "1/2",
    "unit": "cup"
@@ -24627,7 +25252,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4070,
   "fields": {
-   "product": 1544,
+   "product": 1905,
    "recipe": 214,
    "quantity": "1",
    "unit": "can"
@@ -24677,9 +25302,19 @@
   "model": "recipes.productinrecipe",
   "pk": 4086,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 215,
    "quantity": "1/4",
+   "unit": "cup"
+  }
+ },
+ {
+  "model": "recipes.productinrecipe",
+  "pk": 4087,
+  "fields": {
+   "product": 4087,
+   "recipe": 215,
+   "quantity": "1",
    "unit": "cup"
   }
  },
@@ -24827,7 +25462,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4111,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 216,
    "quantity": "2",
    "unit": ""
@@ -24877,7 +25512,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4126,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 217,
    "quantity": "2",
    "unit": "tablespoons"
@@ -24937,7 +25572,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4132,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 217,
    "quantity": "2",
    "unit": "large"
@@ -25017,7 +25652,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4148,
   "fields": {
-   "product": 63,
+   "product": 384,
    "recipe": 218,
    "quantity": "1/2",
    "unit": "cup"
@@ -25047,7 +25682,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4161,
   "fields": {
-   "product": 1824,
+   "product": 4161,
    "recipe": 219,
    "quantity": "2",
    "unit": "pounds"
@@ -25117,7 +25752,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4168,
   "fields": {
-   "product": 332,
+   "product": 1807,
    "recipe": 219,
    "quantity": "4",
    "unit": ""
@@ -25177,7 +25812,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4183,
   "fields": {
-   "product": 2268,
+   "product": 4183,
    "recipe": 220,
    "quantity": "4",
    "unit": "cups"
@@ -25257,7 +25892,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4203,
   "fields": {
-   "product": 1870,
+   "product": 2494,
    "recipe": 221,
    "quantity": "1/2",
    "unit": "teaspoon"
@@ -25327,7 +25962,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4219,
   "fields": {
-   "product": 1544,
+   "product": 4219,
    "recipe": 222,
    "quantity": "1",
    "unit": ""
@@ -25377,7 +26012,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4224,
   "fields": {
-   "product": 2075,
+   "product": 3126,
    "recipe": 222,
    "quantity": "1/4",
    "unit": "cup"
@@ -25387,7 +26022,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4225,
   "fields": {
-   "product": 1692,
+   "product": 2227,
    "recipe": 222,
    "quantity": "1/4",
    "unit": "cup"
@@ -25397,7 +26032,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4226,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 222,
    "quantity": "1",
    "unit": "can"
@@ -25467,7 +26102,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4243,
   "fields": {
-   "product": 1544,
+   "product": 1906,
    "recipe": 223,
    "quantity": "1",
    "unit": "2.5 pound can"
@@ -25547,7 +26182,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4257,
   "fields": {
-   "product": 24,
+   "product": 175,
    "recipe": 224,
    "quantity": "1/4",
    "unit": "cup"
@@ -25737,7 +26372,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4285,
   "fields": {
-   "product": 2560,
+   "product": 4285,
    "recipe": 225,
    "quantity": "1 1/2",
    "unit": "cups"
@@ -25767,7 +26402,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4288,
   "fields": {
-   "product": 1944,
+   "product": 3499,
    "recipe": 225,
    "quantity": "3",
    "unit": "10 oz packages"
@@ -25807,7 +26442,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4292,
   "fields": {
-   "product": 213,
+   "product": 4292,
    "recipe": 225,
    "quantity": "1/8",
    "unit": "teaspoon"
@@ -25887,7 +26522,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4301,
   "fields": {
-   "product": 2268,
+   "product": 3867,
    "recipe": 226,
    "quantity": "1",
    "unit": "cup"
@@ -25897,7 +26532,7 @@
   "model": "recipes.productinrecipe",
   "pk": 4302,
   "fields": {
-   "product": 2311,
+   "product": 3274,
    "recipe": 226,
    "quantity": "1/2",
    "unit": "cup"
