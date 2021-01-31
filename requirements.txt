@@ -1,4 +1,4 @@
 Django
 pytz
-pandas
+numpy
 coverage

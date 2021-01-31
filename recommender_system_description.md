@@ -10,7 +10,7 @@ This method has two approaches:
 In our project we will use approach similar to **user-based** one of collaborative filtering because in this method recommendations are more diverse than in item-based approach. Besides, our user database is small in comparison to recipes database.   
 
 Libraries which will be used in recommender system:
-- **Pandas** to handle with databases
+- **Numpy** to handle with ratings data
 
 The ratings database will be created with special model which will contain information about:
 - **recipe** which was rated

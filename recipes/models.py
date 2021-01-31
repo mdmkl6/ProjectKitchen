@@ -24,6 +24,7 @@ class ProductInRecipe(models.Model):
 	def __str__(self):
 		return self.product.name
 
+
 class UserRating(models.Model):
 	recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE,
                             	related_name='ratings')
