@@ -91,9 +91,9 @@ def recommender(request):
     user_ratings = user.ratings.order_by('owner_id', 'recipe_id')
     other_ratings = UserRating.objects.exclude(owner=user).order_by('owner_id', 'recipe_id')
     common_ratings = other_ratings.filter(recipe__in=user.rated_recipes.all())
+    uncommon_ratings = other_ratings.exclude(recipe__in=user.rated_recipes.all())
     
-    if user_ratings and other_ratings and common_ratings:
-        uncommon_ratings = other_ratings.exclude(recipe__in=user.rated_recipes.all())
+    if user_ratings and other_ratings and common_ratings and uncommon_ratings:
         user_ratings_data = np.array(user_ratings.values_list('owner_id', 'recipe_id', 'score'))
         common_ratings_data = np.array(common_ratings.values_list('owner_id', 'recipe_id', 'score'))
         top_similar_users = find_similar_users(user_ratings_data, common_ratings_data)
