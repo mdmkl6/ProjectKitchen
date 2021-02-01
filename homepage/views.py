@@ -74,10 +74,10 @@ def calculate_weighted_ratings(recipes_ratings_data):
     recipes_ratings_data = np.split(recipes_ratings_data, np.unique(recipes_ratings_data[:,0], return_index=True)[1][1:])
         
     weighted_ratings = np.empty((0,2), object)
-    for group in recipes_ratings_data:
-        if abs(np.sum(group[:,2])) > 0.5:
-            recipe_id = group[0][0]
-            temp_arr = np.array([recipe_id, np.sum(group[:,1])/np.sum(group[:,2])])
+    for recipe_info in recipes_ratings_data:
+        if abs(np.sum(recipe_info[:,2])) > 0.2:
+            recipe_id = recipe_info[0][0]
+            temp_arr = np.array([recipe_id, np.sum(recipe_info[:,1])/np.sum(recipe_info[:,2])])
             weighted_ratings = np.vstack((weighted_ratings, temp_arr))
                 
     return weighted_ratings[weighted_ratings[:,1].argsort()[::-1]][:10]
@@ -87,21 +87,21 @@ def recommender(request):
     user = request.user
     user_ratings = user.ratings.order_by('owner_id', 'recipe_id')
     other_ratings = UserRating.objects.exclude(owner=user).order_by('owner_id', 'recipe_id')
-    common_ratings = other_ratings.filter(recipe__in=user.rated_recipes.all()).order_by('owner_id', 'recipe_id')
+    common_ratings = other_ratings.filter(recipe__in=user.rated_recipes.all())
     
     if user_ratings and other_ratings and common_ratings:
-        uncommon_ratings = other_ratings.exclude(recipe__in=user.rated_recipes.all()).order_by('owner_id', 'recipe_id')
+        uncommon_ratings = other_ratings.exclude(recipe__in=user.rated_recipes.all())
         user_ratings_data = np.array(user_ratings.values_list('owner_id', 'recipe_id', 'score'))
         common_ratings_data = np.array(common_ratings.values_list('owner_id', 'recipe_id', 'score'))
         top_similar_users = find_similar_users(user_ratings_data, common_ratings_data)
         
         other_ratings_data = np.array(uncommon_ratings.values_list('owner_id', 'recipe_id', 'score')).astype('object')
 
-        top_recipes = create_ratings_array_with_similarity_index(other_ratings_data, top_similar_users)
-        top_recipes = top_recipes[top_recipes[:,1].argsort()][:,1:]
-        top_recipes[:,1] *= top_recipes[:,2]
+        top_ratings = create_ratings_array_with_similarity_index(other_ratings_data, top_similar_users)
+        top_ratings = top_ratings[top_ratings[:,1].argsort()][:,1:]
+        top_ratings[:,1] *= top_ratings[:,2]
         
-        weighted_ratings = calculate_weighted_ratings(top_recipes)
+        weighted_ratings = calculate_weighted_ratings(top_ratings)
         recommended_recipe_ids = list(weighted_ratings[:,0])
         
         if recommended_recipe_ids:
