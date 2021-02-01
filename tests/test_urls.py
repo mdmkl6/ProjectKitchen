@@ -1,6 +1,6 @@
 from django.test import SimpleTestCase
 from django.urls import reverse, resolve
-from mysite.views import signup,home
+from homepage.views import signup,home
 from products.views import products_view
 from recipes.views import recipes_view
 from kitchen.views import kitchen_view, add_products, finished_products,change_amount, delete_finished, delete_all,autocomplete_kitchen
@@ -17,10 +17,6 @@ class TestUrls(SimpleTestCase):
   def test_home_url(self):
     url = reverse('home')
     self.assertEquals(resolve(url).func,home)
-
-  #def test_login_url(self):
-    #url=reverse('login')
-    #self.assertEquals(resolve(url).func,django.contrib.auth.views)
 
 ################################################################3
 
