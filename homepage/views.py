@@ -32,7 +32,10 @@ def get_suggested_recipes(request):
     recipe_pks = [x['recipe'] for x in ordered_tuples]
     preserved_order = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(recipe_pks)])
     ordered_recipes = Recipe.objects.filter(pk__in=recipe_pks).order_by(preserved_order)[:10]
-    return ordered_recipes
+    if ordered_recipes:
+        return ordered_recipes
+    else:
+        return Recipe.objects.order_by('?')[:10]
 
 
 def pearson_correlation(user_ratings_data, common_ratings):
