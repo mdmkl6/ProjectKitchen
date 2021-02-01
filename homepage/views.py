@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.db.models import Count
 from django.db.models import Case
 from django.db.models import When
-from kitchen.models import Products
+from kitchen.models import ProductInKitchen
 from recipes.models import Recipe, UserRating
 from recipes.models import ProductInRecipe
 import numpy as np
@@ -22,12 +22,12 @@ def signup(request):
             return redirect('home')
     else:
         form = UserCreationForm()
-    return render(request, 'signup.html', {'form': form})
+    return render(request, 'registration/signup.html', {'form': form})
 
 
 def get_suggested_recipes(request):
     user = request.user
-    kitchen_products = Products.objects.filter(owner=user).values_list('product')
+    kitchen_products = ProductInKitchen.objects.filter(owner=user).values_list('product')
     ordered_tuples = ProductInRecipe.objects.filter(product__in=kitchen_products).values('recipe').annotate(priority=Count('recipe')).order_by('-priority')
     recipe_pks = [x['recipe'] for x in ordered_tuples]
     preserved_order = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(recipe_pks)])
