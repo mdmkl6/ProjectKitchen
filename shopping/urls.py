@@ -10,5 +10,4 @@ urlpatterns = [
     path('done', views.done, name='done'),
     path('autocomplete_shopping_list', views.autocomplete_shopping_list, 
          name='autocomplete_shopping_list'),
-    
 ]

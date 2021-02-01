@@ -20,7 +20,6 @@ const handleSelect = (selection) => {
 	}
 }
 
-
 const getNumericValue = (stringValue) =>{
 	if(stringValue.substring(0,2) == 's-'){
 		return Number(stringValue[2])

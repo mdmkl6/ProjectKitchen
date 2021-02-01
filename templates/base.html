@@ -9,6 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- Custom styles for this template-->
+    <link href="{% static 'css/sb-admin-2.min.css' %}" rel="stylesheet">
+
     <meta charset="utf-8">
     <title>Project kitchen | {% block title %}{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,19 +26,18 @@
         padding: 15px;
       }
     {% block style %}
-    {% endblock%}
+    {% endblock %}
     </style>
-  
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="background-color:#f8f9fc; padding-left: 220px; padding-top: 20px;">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav fixed-bottom bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{% url 'home' %}">
@@ -46,11 +48,8 @@
                 <div class="sidebar-brand-text mx-3">Kitchen </div>
             </a>
 
-
             <!-- Divider -->
             <hr class="sidebar-divider">
-
-
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
@@ -65,36 +64,24 @@
                       </li>
 
                     {% else %}
-                      
-                      <h1>
-                     
-                      </h1>
+
                       <a class="nav-link" href="{% url 'login' %}"><span>Log In</span></a>
                       <a class="nav-link" href="{% url 'signup' %}"><span>Sign Up</span></a>
                       
-                    {% endif %}
-                        
-                   
-                
-            </li>
-
-          
+                    {% endif %}    
+            </li>          
         </ul>
-
         <!-- End of Sidebar -->
         
         <!-- Content Wrapper -->
-        
-        <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content-wrapper" class="d-flex flex-column overflow-auto">
 
           <!-- Main Content -->
           <div id="content">
             
               <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                  
-                    <div class="center">
-                      
+                    <div class="center ">
                       {% block content %}
                       {% endblock %}
                   </div>
@@ -108,7 +95,6 @@
             <i class="fas fa-angle-up"></i>
         </a>
 </body>
-
 </html>
 
 
